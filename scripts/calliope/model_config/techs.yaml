@@ -1,0 +1,91 @@
+techs:
+  solar_pv:
+    essentials:
+      parent: supply
+      carrier_out: electricity
+    constraints:
+      energy_eff: 0.9
+      lifetime: 25
+
+  bioenergy:
+    essentials:
+      parent: supply
+      carrier_out: electricity
+    constraints:
+      energy_eff: 0.4
+      lifetime: 25
+
+  fuel_storage:
+    essentials:
+      parent: storage
+      carrier_in: fuel
+      carrier_out: fuel
+    constraints:
+      storage_loss: 0.01
+      lifetime: 20
+
+  glp_import:
+    essentials:
+      parent: supply
+      carrier_out: fuel
+    constraints:
+      resource: 1
+
+  lng_import:
+    essentials:
+      parent: supply
+      carrier_out: fuel
+    constraints:
+      resource: 1
+
+  diesel_import:
+    essentials:
+      parent: supply
+      carrier_out: fuel
+    constraints:
+      resource: 1
+
+  gas93_import:
+    essentials:
+      parent: supply
+      carrier_out: fuel
+    constraints:
+      resource: 1
+
+  gas97_import:
+    essentials:
+      parent: supply
+      carrier_out: fuel
+    constraints:
+      resource: 1
+
+  kerosene_import:
+    essentials:
+      parent: supply
+      carrier_out: fuel
+    constraints:
+      resource: 1
+
+  substation:
+    essentials:
+      parent: conversion
+      carrier_in: electricity 
+      carrier_out: electricity
+    constraints:
+      lifetime: 40
+
+  generation:    
+    essentials:
+      parent: supply
+      carrier_out: electricity
+    constraints:
+      energy_eff: 1.0
+      lifetime: 25
+
+  electricity_transmission:
+    essentials:
+      parent: transmission
+      carrier: electricity
+    constraints:
+      energy_eff: 0.95
+      lifetime: 40

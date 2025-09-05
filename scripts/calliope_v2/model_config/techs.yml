@@ -1,0 +1,57 @@
+techs:
+  solar_pv:
+    essentials:
+      parent: supply
+      carrier_out: electricity
+    constraints:
+      resource_unit: energy_per_cap
+    costs:
+      monetary:
+        energy_cap: 800
+        om_prod: 0.0
+
+  electrolyser:
+    essentials:
+      name: PEM electrolyser
+      parent: conversion
+      carrier_in: electricity
+      carrier_out: hydrogen
+    constraints:
+      # Potencia nominal de entrada eléctrica (kW_e). Ajusta límites a tu caso:
+      energy_cap_max: 20000        # p.ej. 20 MW_e máximo
+      energy_cap_min: 0
+      # Eficiencia eléctrica → H2 (en base PCI): ~0.63–0.7
+      # Si tu consumo específico es ~52.5 kWh_e/kg y PCI≈33.33 kWh/kg,
+      # entonces eff ≈ 33.33/52.5 = 0.635
+      energy_eff: 0.635
+      # (Opcional) factor de carga mínimo / rampas si quieres operatividad:
+      # energy_ramping: 0.5         # máx. cambio relativo entre pasos
+      # energy_cap_per_unit: 1000   # tamaño módulo (kW) si modelas unidades discretas
+    costs:
+      monetary:
+        # Capex por kW_e instalado del electrolizador
+        energy_cap: 900            # $/kW_e (ejemplo)
+        # Opex variable por producción de H2 (por kWh_H2 producido)
+        om_prod: 0.0
+
+  h2_storage:
+    essentials:
+      name: Hydrogen tank
+      parent: storage
+      carrier: hydrogen
+    constraints:
+      storage_cap_max: 5000   # kWh_H2 o unidad que uses (consistente)
+      energy_eff: 0.99        # eficiencia ida/vuelta aprox
+      storage_loss: 0.0001    # fracción por timestep (opcional)
+    costs:
+      monetary:
+        storage_cap: 10   # $/kWh_H2 (ejemplo)
+
+  demand_hydrogen:
+    essentials:
+      name: H2 demand
+      parent: demand
+      carrier: hydrogen
+    constraints:
+      # Demanda negativa de H₂
+      resource: file=demand_profiles/h2_valle.csv:resource

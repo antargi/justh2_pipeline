@@ -1,0 +1,12 @@
+model:
+  name: Hydrogen Valley Base Model
+  timeseries_data_path: timeseries/
+
+import:
+  - model_config/locations.yaml
+  - model_config/techs.yaml
+  - model_config/links_transmision.yml
+run:
+  solver: cbc
+  objective: cost
+  mode: plan

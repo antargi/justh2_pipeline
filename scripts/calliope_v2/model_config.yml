@@ -1,0 +1,16 @@
+model:
+  name: "Valle H2 – baseline"
+  time:
+    resolution: 1h
+  subset_time: ['2020-01-01 00:30', '2020-12-31 23:30']
+  timeseries_data_path: model_config  
+
+import:
+  - model_config/locations_new.yml
+  - model_config/techs.yml
+
+run:
+  solver: cbc
+  objective_options:
+    cost_class:
+      monetary: 1

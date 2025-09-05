@@ -1,0 +1,673 @@
+links:
+  S_E_SAN_PEDRO_CTNG,S_E_CENTRAL_LOS_VIENTOS:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 29.4138164
+  FUSTER_DEL_VERANO,S_E_POLPAICO_TRANSELEC:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 500.0
+          distance: 29.36301497
+  S_E_CENTRAL_NEHUENCO_III,S_E_CENTRAL_SAN_ISIDRO_I:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 1.08092325
+  S_E_TOTORALILLO,S_E_ACONCAGUA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 21.31321559
+  S_E_MARGA_MARGA,S_E_MIRAFLORES:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 2.52510521
+  TAP_OFF_MAYACA,S_E_MAYACA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 5.79240657
+  S_E_CENTRAL_CHACABUQUITO,S_E_TOTORALILLO:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 0.02563105
+  S_E_NUEVA_PANQUEHUE,S_E_RIO_ACONCAGUA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 7.55421639
+  S_E_QUILLOTA,TAP_OFF_MAURO:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 178.646389
+  TAP_OFF_SAN_RAFAEL_CHILQUINTA,S_E_SAN_RAFAEL_CHILQUINTA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 2.04694016
+  S_E_CENTRAL_LOS_OLIVOS,S_E_CHOAPA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 49.82299907
+  S_E_CENTRAL_HORNITOS,S_E_CENTRAL_JUNCALITO:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 11.0
+          distance: 0.7024908
+  S_E_CERRO_CALERA,S_E_LAS_VEGAS_CHILQUINTA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 44.0
+          distance: 21.79407993
+  S_E_CENTRAL_HORNITOS,S_E_LOS_MAQUIS:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 19.85132194
+  S_E_FUNDICION_CHAGRES,S_E_NUEVA_PANQUEHUE:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 4.46805895
+  S_E_POLPAICO_TRANSELEC,S_E_CENTRAL_QUILAPILUN:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 28.52544895
+  S_E_BOSQUEMAR,S_E_TORQUEMADA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 4.82939101
+  S_E_CODELCO_VENTANAS_2,S_E_CODELCO_VENTANAS_1:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 0.77514068
+  S_E_PEÑABLANCA,S_E_SAN_PEDRO_CTNG:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 17.90362113
+  S_E_QUILLOTA,S_E_SAN_PEDRO_CTNG:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 2.1965525
+  TAP_OFF_QUILPUE,S_E_QUILPUE:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 3.5950667
+  S_E_CENTRAL_LOS_QUILOS,S_E_ACONCAGUA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 66.0
+          distance: 11.65205569
+  S_E_PHI,S_E_SAN_FRANCISCO:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 66.0
+          distance: 15.1651177
+  S_E_MAUCO,S_E_TORQUEMADA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 3.47224846
+  S_E_LOS_ANDES_FFCC,S_E_JUNCAL_PORTILLO:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 44.0
+          distance: 48.77831843
+  S_E_SAN_LUIS,S_E_QUILLOTA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 8.04759059
+  S_E_MESETA_DE_LOS_ANDES,S_E_LOS_MAQUIS:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 15.63588106
+  S_E_TORQUEMADA,S_E_CENTRAL_COLMITO:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 0.45952636
+  S_E_CERRO_CALERA,TAP_OFF_MAYACA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 7.91934717
+  S_E_ESTANCILLA,S_E_LOS_ANDES_FFCC:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 44.0
+          distance: 39.48401607
+  MARIN,S_E_SAN_FELIPE:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 4.44001405
+  S_E_PEÑABLANCA,S_E_MIRAFLORES:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 33.91113531
+  S_E_LA_POLVORA,S_E_CENTRAL_LAGUNA_VERDE:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 5.93624881
+  S_E_CENTRAL_NEHUENCO_II,S_E_SAN_LUIS:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 0.71946868
+  S_E_CODELCO_VENTANAS_1,TERMINAL_QUINTERO:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 1.59839183
+  S_E_SER_EL_SALTO,S_E_SEAT_EL_SOL:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 44.0
+          distance: 10.98328389
+  S_E_LAS_VEGAS_CHILQUINTA,S_E_CENTRAL_SANTIAGO_SOLAR:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 32.10095185
+  TAP_OFF_PUNTA_PEUCO,S_E_PRINCIPAL_PLANTA_POLPAICO:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 66.0
+          distance: 4.08576867
+  S_E_LA_CALERA,S_E_EL_MELON:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 44.0
+          distance: 11.65243718
+  S_E_LOS_MAQUIS,S_E_CENTRAL_LOS_QUILOS:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 0.11798205
+  S_E_PHI,S_E_CONFLUENCIA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 16.87744715
+  S_E_TORQUEMADA,S_E_MIRAFLORES:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 14.04720883
+  S_E_CENTRAL_QUINTERO,S_E_CENTRAL_SAN_ISIDRO_II:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 27.89213827
+  S_E_LAS_VEGAS_AES_GENER,S_E_CRISTALERIAS:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 6.16379161
+  S_E_QUILLOTA,S_E_NOGALES:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 27.76599638
+  S_E_NOGALES,S_E_LOS_VILOS:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 96.98851585
+  SANTA_TERESITA,S_E_POLPAICO_TRANSELEC:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 16.87019545
+  S_E_CALERA_CENTRO,S_E_CERRO_CALERA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 66.0
+          distance: 1.4619879
+  S_E_RIO_ACONCAGUA,S_E_ESPERANZA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 4.33123305
+  S_E_POLPAICO_TRANSELEC,S_E_LOS_MAQUIS:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 67.6045472
+  TAP_CALEU,S_E_CALEU:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 44.0
+          distance: 0.24428763
+  S_E_MAURO,TAP_OFF_MAURO:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 16.16558661
+  S_E_AGUA_SANTA,S_E_MIRAFLORES:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 6.40840565
+  S_E_LOS_VILOS,S_E_CENTRAL_LOS_OLIVOS:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 74.7645883
+  S_E_NOGALES,S_E_RIO_ACONCAGUA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 30.49261565
+  S_E_TOTORALILLO,S_E_NUEVA_PANQUEHUE:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 41.06513321
+  S_E_TORQUEMADA,S_E_VENTANAS:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 21.39936932
+  S_E_POLPAICO_TRANSELEC,S_E_LAS_TORTOLAS:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 17.10559161
+  S_E_LOS_PLACERES,S_E_LOS_PLACERES:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 1.66643687
+  S_E_LOS_ANGELES,S_E_CERRO_NEGRO:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 66.0
+          distance: 7.02867974
+  S_E_LAS_VEGAS_CHILQUINTA,S_E_ESPERANZA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 0.27517847
+  S_E_SAN_FRANCISCO,S_E_MINA_NUEVA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 66.0
+          distance: 6.30454307
+  S_E_CEMENTO_MELON,S_E_PRINCIPAL_MINA_NAVIO:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 44.0
+          distance: 13.81266992
+  S_E_CALERA_CENTRO,S_E_ESPERANZA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 66.0
+          distance: 24.01970147
+  S_E_QUINQUIMO,S_E_CABILDO:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 28.81280076
+  TAP_EL_MANZANO_(ENEL_DISTRIBUCION),S_E_EL_MANZANO_(ENEL_DISTRIBUCION):
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 0.0593248
+  S_E_PLACILLA_(CHILQUINTA),S_E_AGUA_SANTA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 4.1703049
+  S_E_EL_MANZANO_(ENEL_DISTRIBUCION),EL_MANZANO:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 33.0
+          distance: 6.09242772
+  S_E_VENTANAS,S_E_NOGALES:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 29.56239742
+  S_E_RIO_ACONCAGUA,S_E_POLPAICO_TRANSELEC:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 52.88780403
+  TAP_PHI,S_E_PHI:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 66.0
+          distance: 0.2686766
+  S_E_MIRAFLORES,S_E_SAN_PEDRO_CTNG:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 35.50042343
+  S_E_CENTRAL_QUILAPILUN,S_E_EL_LLANO:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 111.13773415
+  S_E_CONCON,S_E_TORQUEMADA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 0.14250076
+  S_E_QUEREO,S_E_CHOAPA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 0.18897648
+  S_E_LA_POLVORA,S_E_PLAYA_ANCHA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 6.62323374
+  S_E_VENTANAS,S_E_SAN_PEDRO_FFCC:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 29.67407026
+  S_E_CENTRAL_SANTIAGO_SOLAR,S_E_BATUCO:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 45.45259274
+  S_E_SEAT_EL_SOL,S_E_SER_VILLA_ALEMANA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 66.0
+          distance: 4.97533402
+  S_E_POLPAICO_TRANSELEC,S_E_SANTA_FILOMENA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 32.99693094
+  S_E_JUNCAL_PORTILLO,HNOS_CLARK:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 44.0
+          distance: 0.23557121
+  TAP_SAN_FELIPE,S_E_SAN_FELIPE:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 44.0
+          distance: 0.21494763
+  S_E_VENTANAS,S_E_GNL_QUINTERO:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 3.78989002
+  TAP_OFF_DOÑA_CARMEN,S_E_DOÑA_CARMEN:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 0.04358977
+  S_E_LA_POLVORA,S_E_VALPARAISO:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 3.84962334
+  S_E_SANTA_FILOMENA,S_E_CONFLUENCIA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 27.69402321
+  S_E_MARBELLA,S_E_QUILLOTA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 41.0912446
+  S_E_CHOAPA,S_E_QUINQUIMO:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 61.76473821
+  S_E_ACONCAGUA,S_E_SALADILLO:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 66.0
+          distance: 8.79568147
+  S_E_CHAGRES,S_E_LOS_ANGELES:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 44.0
+          distance: 24.55104272
+  S_E_EL_COBRE_ANGLOAMERICAN,S_E_CERRO_CALERA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 19.09961876
+  S_E_MIRAFLORES,S_E_CONCON:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 17.88530773
+  S_E_EL_MELON,S_E_TUNEL_EL_MELON:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 44.0
+          distance: 8.55931257
+  S_E_QUINTERO,S_E_VENTANAS:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 0.42193291
+  S_E_LAS_VEGAS_AES_GENER,S_E_ESTANCILLA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 44.0
+          distance: 6.84659651
+  S_E_LAS_TORTOLAS,Lo_Barnechea:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 42.90859996
+  S_E_LAS_VEGAS_CHILQUINTA,S_E_BATUCO:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 77.62094865
+  S_E_CENTRAL_LOS_OLIVOS,S_E_POLPAICO_TRANSELEC:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 500.0
+          distance: 409.78831637
+  S_E_CENTRAL_NEHUENCO_I,S_E_CENTRAL_SAN_ISIDRO_I:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 1.55992154
+  S_E_POLPAICO_TRANSELEC,S_E_QUILLOTA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 49.72899591
+  S_E_PRINCIPAL_MINA_NAVIO,S_E_COMPRESORA_MINA_NAVIO:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 44.0
+          distance: 1.68175915
+  S_E_RIO_ACONCAGUA,S_E_FUNDICION_CHAGRES:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 3.92307911
+  TAP_LOS_MAQUIS,S_E_LOS_MAQUIS:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 0.11643669
+  S_E_QUINQUIMO,S_E_MARBELLA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 27.56510257
+  S_E_CENTRAL_LOMA_LOS_COLORADOS,S_E_POLPAICO_(ENEL_DISTRIBUCION):
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 20.61690359
+  S_E_LAS_VEGAS_AES_GENER,S_E_RUNGUE_(FFCC):
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 44.0
+          distance: 24.59624748
+  S_E_LA_POLVORA,S_E_AGUA_SANTA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 110.0
+          distance: 12.44520065
+  S_E_SAN_LUIS,S_E_AGUA_SANTA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 33.35897063
+  S_E_MINA_NUEVA,S_E_MINA:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 66.0
+          distance: 0.72090433
+  TAP_OFF_QUINTAY,S_E_QUINTAY:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 66.0
+          distance: 2.7169791
+  S_E_CENTRAL_QUILAPILUN,S_E_LOS_MAQUIS:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 220.0
+          distance: 39.25988043
+  S_E_CENTRAL_LOS_OLIVOS,S_E_CENTRAL_CHAGUAL:
+    techs:
+      electricity_transmission:
+        constraints:
+          energy_cap: 23.0
+          distance: 7.93538862

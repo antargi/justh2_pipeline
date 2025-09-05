@@ -1,0 +1,650 @@
+locations:
+  PV_LOMA_LOS_COLORADOS:
+    coordinates: {lon: -70.79959099299998,  lat: -32.95181176999995}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 0.764
+          resource: file=pv_profiles_cf/PV_LOMA_LOS_COLORADOS.csv
+  PV_SANTIAGO_SOLAR:
+    coordinates: {lon: -70.86172432299998,  lat: -33.077898267999956}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 90.83
+          resource: file=pv_profiles_cf/PV_SANTIAGO_SOLAR.csv
+  PV_PALTO_SUNLIGHT:
+    coordinates: {lon: -71.22946614599994,  lat: -32.95914368899997}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 9.0
+          resource: file=pv_profiles_cf/PV_PALTO_SUNLIGHT.csv
+  PV_FUSTER_DEL_VERANO:
+    coordinates: {lon: -70.91981505499996,  lat: -33.26279866599998}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 9.0
+          resource: file=pv_profiles_cf/PV_FUSTER_DEL_VERANO.csv
+  PV_COLINA:
+    coordinates: {lon: -70.71359847899998,  lat: -33.032097464999936}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 9.0
+          resource: file=pv_profiles_cf/PV_COLINA.csv
+  PV_VILLA_MOSCOSO:
+    coordinates: {lon: -71.36517868899995,  lat: -33.09162511499994}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 3.0
+          resource: file=pv_profiles_cf/PV_VILLA_MOSCOSO.csv
+  PV_PULLALLI:
+    coordinates: {lon: -71.27708761899999,  lat: -32.45426051299995}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.989
+          resource: file=pv_profiles_cf/PV_PULLALLI.csv
+  PV_TRANQUE_DEL_SOL:
+    coordinates: {lon: -71.18748789899996,  lat: -32.722129766999956}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 9.0
+          resource: file=pv_profiles_cf/PV_TRANQUE_DEL_SOL.csv
+  PV_OCOA:
+    coordinates: {lon: -71.05888495299996,  lat: -32.796057978999954}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 3.0
+          resource: file=pv_profiles_cf/PV_OCOA.csv
+  PV_PEDREROS_SOLAR:
+    coordinates: {lon: -70.91058530899994,  lat: -32.802151823999964}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.987
+          resource: file=pv_profiles_cf/PV_PEDREROS_SOLAR.csv
+  PV_RODEO:
+    coordinates: {lon: -70.96230797299995,  lat: -32.76988623699998}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.96
+          resource: file=pv_profiles_cf/PV_RODEO.csv
+  PV_LA_LIGUA:
+    coordinates: {lon: -71.23148883099998,  lat: -32.42962770799994}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.99
+          resource: file=pv_profiles_cf/PV_LA_LIGUA.csv
+  PV_EL_BOCO:
+    coordinates: {lon: -71.24489356999999,  lat: -32.85510111199994}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 7.67
+          resource: file=pv_profiles_cf/PV_EL_BOCO.csv
+  PV_CATAN_SOLAR:
+    coordinates: {lon: -70.60343355199996,  lat: -32.72871692899997}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.995
+          resource: file=pv_profiles_cf/PV_CATAN_SOLAR.csv
+  PV_ENCON_SOLAR:
+    coordinates: {lon: -70.74809060299998,  lat: -32.72975016799995}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 8.494
+          resource: file=pv_profiles_cf/PV_ENCON_SOLAR.csv
+  PV_ANUNUCA_DEL_VERANO:
+    coordinates: {lon: -70.77403713099994,  lat: -32.751103211999975}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 3.0
+          resource: file=pv_profiles_cf/PV_ANUNUCA_DEL_VERANO.csv
+  PV_SANTA_INES_SOLAR:
+    coordinates: {lon: -70.86525505399999,  lat: -33.12536284199996}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.95
+          resource: file=pv_profiles_cf/PV_SANTA_INES_SOLAR.csv
+  PV_MESETA_DE_LOS_ANDES:
+    coordinates: {lon: -70.54079819299994,  lat: -32.89399641399996}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 148.8953
+          resource: file=pv_profiles_cf/PV_MESETA_DE_LOS_ANDES.csv
+  PV_PARQUE_SOLAR_OVEJERIA:
+    coordinates: {lon: -70.76820609899994,  lat: -33.094925064999984}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 9.0
+          resource: file=pv_profiles_cf/PV_PARQUE_SOLAR_OVEJERIA.csv
+  PV_DONA_CARMEN_SOLAR:
+    coordinates: {lon: -71.25404612499995,  lat: -32.47888003299994}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 34.542
+          resource: file=pv_profiles_cf/PV_DONA_CARMEN_SOLAR.csv
+  PV_PV_UTFSM_VALPARAISO_VALDES:
+    coordinates: {lon: -71.59446252899994,  lat: -33.03609125599996}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 0.2145
+          resource: file=pv_profiles_cf/PV_PV_UTFSM_VALPARAISO_VALDES.csv
+  PV_LIQUIDAMBAR:
+    coordinates: {lon: -70.53870956199995,  lat: -32.824456787999964}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 9.0
+          resource: file=pv_profiles_cf/PV_LIQUIDAMBAR.csv
+  PV_EL_QUEMADO:
+    coordinates: {lon: -71.01771318599998,  lat: -32.43704972799998}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.98
+          resource: file=pv_profiles_cf/PV_EL_QUEMADO.csv
+  PV_KONDA:
+    coordinates: {lon: -70.71468808399999,  lat: -32.78298201599995}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.995
+          resource: file=pv_profiles_cf/PV_KONDA.csv
+  PV_CABILSOL:
+    coordinates: {lon: -71.10317730099996,  lat: -32.466449575999945}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 3.0
+          resource: file=pv_profiles_cf/PV_CABILSOL.csv
+  PV_CONDOR_PETORCA:
+    coordinates: {lon: -70.95690316399998,  lat: -32.26543908699995}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 0.9
+          resource: file=pv_profiles_cf/PV_CONDOR_PETORCA.csv
+  PV_TILTIL_SOLAR:
+    coordinates: {lon: -70.81996840199997,  lat: -32.95754991899997}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.48
+          resource: file=pv_profiles_cf/PV_TILTIL_SOLAR.csv
+  PV_LLAY_LLAY:
+    coordinates: {lon: -70.95841625299994,  lat: -32.85186182299998}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 9.0
+          resource: file=pv_profiles_cf/PV_LLAY_LLAY.csv
+  PV_GUADALUPE:
+    coordinates: {lon: -70.53045634699998,  lat: -32.85084015799998}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 5.6
+          resource: file=pv_profiles_cf/PV_GUADALUPE.csv
+  PV_MONTT_SOLAR:
+    coordinates: {lon: -71.06893397299996,  lat: -32.32437704899996}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 3.0
+          resource: file=pv_profiles_cf/PV_MONTT_SOLAR.csv
+  PV_RINCONADA_NORTE_(SLK_808):
+    coordinates: {lon: -70.68944319799994,  lat: -32.65826575099993}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.97
+          resource: file=pv_profiles_cf/PV_RINCONADA_NORTE_(SLK_808).csv
+  PV_ESFENA:
+    coordinates: {lon: -70.81010220799993,  lat: -32.23694450199997}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 6.0
+          resource: file=pv_profiles_cf/PV_ESFENA.csv
+  PV_PELUMPEN_SOLAR:
+    coordinates: {lon: -71.15282106199999,  lat: -33.03476810099994}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.9
+          resource: file=pv_profiles_cf/PV_PELUMPEN_SOLAR.csv
+  PV_SANTA_JULIA:
+    coordinates: {lon: -71.10394527999995,  lat: -32.30107070699995}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 3.0
+          resource: file=pv_profiles_cf/PV_SANTA_JULIA.csv
+  PV_JAHUEL:
+    coordinates: {lon: -70.62101326599998,  lat: -32.68300653199998}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 5.6
+          resource: file=pv_profiles_cf/PV_JAHUEL.csv
+  PV_NILHUE:
+    coordinates: {lon: -70.92629529399994,  lat: -32.71055263699998}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 1.1
+          resource: file=pv_profiles_cf/PV_NILHUE.csv
+  PV_SANTUARIO_SOLAR:
+    coordinates: {lon: -70.68840079499995,  lat: -32.89182858799995}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.9871
+          resource: file=pv_profiles_cf/PV_SANTUARIO_SOLAR.csv
+  PV_QUILAPILUN:
+    coordinates: {lon: -70.68793057499994,  lat: -33.103695020999965}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 112.385
+          resource: file=pv_profiles_cf/PV_QUILAPILUN.csv
+  PV_MARIN:
+    coordinates: {lon: -70.73479019799998,  lat: -32.78726875399997}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.9558
+          resource: file=pv_profiles_cf/PV_MARIN.csv
+  PV_CALLE_LARGA:
+    coordinates: {lon: -70.61154312499997,  lat: -32.88314745099996}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.97
+          resource: file=pv_profiles_cf/PV_CALLE_LARGA.csv
+  PV_SGT_CATAPILCO:
+    coordinates: {lon: -71.36276727299997,  lat: -32.59229489699993}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 9.0
+          resource: file=pv_profiles_cf/PV_SGT_CATAPILCO.csv
+  PV_MAIKONO:
+    coordinates: {lon: -71.44004747899999,  lat: -32.81667527899998}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 3.0
+          resource: file=pv_profiles_cf/PV_MAIKONO.csv
+  PV_EL_MANZANO:
+    coordinates: {lon: -70.78833127899998,  lat: -33.09987761299993}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 91.74
+          resource: file=pv_profiles_cf/PV_EL_MANZANO.csv
+  PV_LOS_TILOS:
+    coordinates: {lon: -71.05943201099996,  lat: -32.79338859699993}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 3.5
+          resource: file=pv_profiles_cf/PV_LOS_TILOS.csv
+  PV_RDCL_SAN:
+    coordinates: {lon: -71.27149480499997,  lat: -33.03478222799998}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 7.5
+          resource: file=pv_profiles_cf/PV_RDCL_SAN.csv
+  PV_CATEMU:
+    coordinates: {lon: -70.96428963599993,  lat: -32.73374501099994}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 1.99
+          resource: file=pv_profiles_cf/PV_CATEMU.csv
+  PV_REXNER:
+    coordinates: {lon: -70.52797600799994,  lat: -32.882537035999974}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 3.0
+          resource: file=pv_profiles_cf/PV_REXNER.csv
+  PV_ALICAHUE:
+    coordinates: {lon: -70.89895788199993,  lat: -32.41709764099994}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.998
+          resource: file=pv_profiles_cf/PV_ALICAHUE.csv
+  PV_CLEMENTINA:
+    coordinates: {lon: -70.86337028699995,  lat: -33.121377923999944}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 6.0
+          resource: file=pv_profiles_cf/PV_CLEMENTINA.csv
+  PV_SLK_CB_NUEVE:
+    coordinates: {lon: -70.68737050299995,  lat: -32.662009560999934}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 3.0
+          resource: file=pv_profiles_cf/PV_SLK_CB_NUEVE.csv
+  PV_HELIOS:
+    coordinates: {lon: -70.97427898699993,  lat: -32.84301793999998}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 3.0
+          resource: file=pv_profiles_cf/PV_HELIOS.csv
+  PV_ENAMI_SOLAR:
+    coordinates: {lon: -70.96366102099995,  lat: -32.76587885199996}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 5.375
+          resource: file=pv_profiles_cf/PV_ENAMI_SOLAR.csv
+  PV_MAIMALICAN:
+    coordinates: {lon: -71.35240003199993,  lat: -32.14236408399995}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 9.0
+          resource: file=pv_profiles_cf/PV_MAIMALICAN.csv
+  PV_ARIZTIA:
+    coordinates: {lon: -71.27277784099994,  lat: -32.31842489899998}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.996
+          resource: file=pv_profiles_cf/PV_ARIZTIA.csv
+  PV_CHACABUCO:
+    coordinates: {lon: -70.71008150499995,  lat: -32.95361053299996}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 8.999
+          resource: file=pv_profiles_cf/PV_CHACABUCO.csv
+  PV_MANAO:
+    coordinates: {lon: -70.98709632999999,  lat: -32.86302510899998}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 3.0
+          resource: file=pv_profiles_cf/PV_MANAO.csv
+  PV_SAN_FRANCISCO_SOLAR:
+    coordinates: {lon: -70.70381659199995,  lat: -33.04009575599997}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 3.0
+          resource: file=pv_profiles_cf/PV_SAN_FRANCISCO_SOLAR.csv
+  PV_JARDIN_SOLAR_PETORCA:
+    coordinates: {lon: -70.87803256699993,  lat: -32.39607205599998}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 0.2
+          resource: file=pv_profiles_cf/PV_JARDIN_SOLAR_PETORCA.csv
+  PV_JAURURO_SOLAR:
+    coordinates: {lon: -71.27117225699993,  lat: -32.45377219799997}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.7226
+          resource: file=pv_profiles_cf/PV_JAURURO_SOLAR.csv
+  PV_INDEPENDENCIA:
+    coordinates: {lon: -70.89036170399999,  lat: -33.14513098499998}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.7
+          resource: file=pv_profiles_cf/PV_INDEPENDENCIA.csv
+  PV_LOS_TAURETES:
+    coordinates: {lon: -70.69836348699994,  lat: -33.02822935599994}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.9
+          resource: file=pv_profiles_cf/PV_LOS_TAURETES.csv
+  PV_CRUZ_SOLAR:
+    coordinates: {lon: -70.86599156499994,  lat: -32.79398618099998}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.956
+          resource: file=pv_profiles_cf/PV_CRUZ_SOLAR.csv
+  PV_PV_UTFSM_VINA_DEL_MAR:
+    coordinates: {lon: -71.48610852699994,  lat: -33.036883082999964}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 0.4985
+          resource: file=pv_profiles_cf/PV_PV_UTFSM_VINA_DEL_MAR.csv
+  PV_SANTA_LAURA:
+    coordinates: {lon: -71.03044840299998,  lat: -32.39694586899998}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.97
+          resource: file=pv_profiles_cf/PV_SANTA_LAURA.csv
+  PV_ESCORIAL_DEL_VERANO_SOLAR:
+    coordinates: {lon: -70.77848138399997,  lat: -32.74004612999994}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 3.0
+          resource: file=pv_profiles_cf/PV_ESCORIAL_DEL_VERANO_SOLAR.csv
+  PV_LA_QUINTA_SOLAR:
+    coordinates: {lon: -70.71170621399995,  lat: -33.028921810999975}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.9896
+          resource: file=pv_profiles_cf/PV_LA_QUINTA_SOLAR.csv
+  PV_CABILDO_SUNLIGHT:
+    coordinates: {lon: -71.10053829899994,  lat: -32.45175731099994}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 9.0
+          resource: file=pv_profiles_cf/PV_CABILDO_SUNLIGHT.csv
+  PV_HORMIGA:
+    coordinates: {lon: -70.72022302499994,  lat: -32.71603893699995}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.541
+          resource: file=pv_profiles_cf/PV_HORMIGA.csv
+  PV_TIJERAL:
+    coordinates: {lon: -71.07980269899997,  lat: -32.33146745099998}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 3.0
+          resource: file=pv_profiles_cf/PV_TIJERAL.csv
+  PV_LOS_PERALES:
+    coordinates: {lon: -71.30007549699997,  lat: -33.14692040199998}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 3.0
+          resource: file=pv_profiles_cf/PV_LOS_PERALES.csv
+  PV_CONCON:
+    coordinates: {lon: -71.48824652299999,  lat: -32.928907986999945}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 0.1
+          resource: file=pv_profiles_cf/PV_CONCON.csv
+  PV_EL_INGENIO:
+    coordinates: {lon: -71.14765516399996,  lat: -32.492419981999944}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 9.0
+          resource: file=pv_profiles_cf/PV_EL_INGENIO.csv
+  PV_VALPARAISO:
+    coordinates: {lon: -70.99589447699998,  lat: -32.837435288999984}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 6.0
+          resource: file=pv_profiles_cf/PV_VALPARAISO.csv
+  PV_EL_HUASO:
+    coordinates: {lon: -70.98026515599997,  lat: -32.764219572999934}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.7
+          resource: file=pv_profiles_cf/PV_EL_HUASO.csv
+  PV_CASUTO:
+    coordinates: {lon: -70.71239823899998,  lat: -32.85118772399994}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.74
+          resource: file=pv_profiles_cf/PV_CASUTO.csv
+  PV_NORTE_CHICO:
+    coordinates: {lon: -71.16450300699995,  lat: -32.09909119699995}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 1.9485
+          resource: file=pv_profiles_cf/PV_NORTE_CHICO.csv
+  PV_SANTA_TERESA:
+    coordinates: {lon: -70.70948318099994,  lat: -32.57224843299997}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 0.152
+          resource: file=pv_profiles_cf/PV_SANTA_TERESA.csv
+  PV_LONCURA:
+    coordinates: {lon: -71.49680627599997,  lat: -32.78810749399997}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 9.0
+          resource: file=pv_profiles_cf/PV_LONCURA.csv
+  PV_LOS_JOTES:
+    coordinates: {lon: -71.09574655299997,  lat: -32.46071146799994}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 3.0
+          resource: file=pv_profiles_cf/PV_LOS_JOTES.csv
+  PV_LLIU_LLIU:
+    coordinates: {lon: -71.39633607399998,  lat: -32.88726903699995}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 3.0
+          resource: file=pv_profiles_cf/PV_LLIU_LLIU.csv
+  PV_SANTA_TERESITA:
+    coordinates: {lon: -70.78651424199995,  lat: -33.268086703999984}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 9.0
+          resource: file=pv_profiles_cf/PV_SANTA_TERESITA.csv
+  PV_EL_LITRE_SOLAR:
+    coordinates: {lon: -70.78190126499999,  lat: -33.127944929999956}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 9.0
+          resource: file=pv_profiles_cf/PV_EL_LITRE_SOLAR.csv
+  PV_FILOMENA_SOLAR:
+    coordinates: {lon: -70.61555958999998,  lat: -32.70824979599996}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 3.0
+          resource: file=pv_profiles_cf/PV_FILOMENA_SOLAR.csv
+  PV_SOLARPACK_VILLA_ALEMANA:
+    coordinates: {lon: -71.29392941699996,  lat: -33.047004914999945}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.7
+          resource: file=pv_profiles_cf/PV_SOLARPACK_VILLA_ALEMANA.csv
+  PV_ALTOS_DE_TIL_TIL:
+    coordinates: {lon: -70.88875088299994,  lat: -33.096953078999945}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 1.7
+          resource: file=pv_profiles_cf/PV_ALTOS_DE_TIL_TIL.csv
+  PV_YAHUTELA:
+    coordinates: {lon: -70.97277679699994,  lat: -32.78716349399997}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 6.0
+          resource: file=pv_profiles_cf/PV_YAHUTELA.csv
+  PV_TUCUQUERE:
+    coordinates: {lon: -70.97138200899997,  lat: -32.78443483099994}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.975
+          resource: file=pv_profiles_cf/PV_TUCUQUERE.csv
+  PV_CANONES_SUNLIGHT:
+    coordinates: {lon: -71.17884175399996,  lat: -32.76224826299995}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 9.0
+          resource: file=pv_profiles_cf/PV_CANONES_SUNLIGHT.csv
+  PV_PANQUEHUE_II:
+    coordinates: {lon: -70.81317733899994,  lat: -32.77758135599993}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 6.0
+          resource: file=pv_profiles_cf/PV_PANQUEHUE_II.csv
+  PV_TORTOLAS_DEL_VERANO:
+    coordinates: {lon: -70.52687637399998,  lat: -32.88136894999997}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 3.0
+          resource: file=pv_profiles_cf/PV_TORTOLAS_DEL_VERANO.csv
+  PV_LOS_PALTOS:
+    coordinates: {lon: -71.03097227299997,  lat: -32.398028701999976}
+    techs:
+      solar_pv:
+        constraints:
+          energy_cap: 2.695
+          resource: file=pv_profiles_cf/PV_LOS_PALTOS.csv
+  VALLE_H2:
+    coordinates: {lon: -70.5, lat: -32.9}
+    techs:
+      electrolyser:
+        constraints:
+          energy_cap: 800   # kW (ejemplo)
+      h2_storage:
+        constraints:
+          storage_cap: 3000 # kWh_H2 (ejemplo)
+      demand_hydrogen:
+        constraints:
+          resource: file=demand_profiles/h2_valle.csv:resource
