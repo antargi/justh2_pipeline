@@ -1,0 +1,37 @@
+model:
+  name: "H2_valley_scenarios"
+  timeseries_data_path: data
+
+scenarios:
+  ssp245: [ov_ssp245, quick_test]
+  ssp370: [ov_ssp370, quick_test]
+  ssp585: [ov_ssp585, quick_test]
+
+overrides:
+  ov_ssp245:
+    import: [scenarios/ssp245.yml]
+
+  ov_ssp370:
+    import: [scenarios/ssp370.yml]
+
+  ov_ssp585:
+    import: [scenarios/ssp585.yml]
+
+  quick_test:
+    model.subset_time: ['2023-01-01', '2043-01-31']
+
+
+run:
+  solver: cbc
+  solver_options:
+    threads: 20
+    presolve: on
+  objective_options:
+    cost_class: {monetary: 1, co2: 0}
+  ensure_feasibility: true
+  save_results: ["all"]
+
+import:
+  - locations_batch.yml
+  - techs.yml
+  - links_batch.yml

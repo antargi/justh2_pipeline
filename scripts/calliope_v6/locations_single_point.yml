@@ -1,0 +1,16 @@
+# Locaciones para modelo de punto único
+# Este archivo se genera dinámicamente para cada punto
+
+locations:
+  POINT:
+    coordinates:
+      lat: -33.225  # Placeholder, se reemplaza en código
+      lon: -71.725  # Placeholder, se reemplaza en código
+    techs:
+      pv:
+      electrolyzer:
+      h2_store:
+      demand_h2:
+      water_supply:
+      seawater_supply:
+      desalination:

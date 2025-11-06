@@ -1,0 +1,1329 @@
+locations:
+  VALPO:
+    coordinates: {lat: -33.0, lon: -71.6}
+    techs:
+      electrolyzer: {}
+      h2_store: {}
+      demand_h2: {}
+      seawater_supply: {}
+      desalination: {}
+  PV_SITE_1:
+    coordinates: {lat: -33.225, lon: -71.725}
+    techs:
+      pv: {}
+  PV_SITE_2:
+    coordinates: {lat: -33.225, lon: -71.625}
+    techs:
+      pv: {}
+  PV_SITE_3:
+    coordinates: {lat: -33.225, lon: -71.525}
+    techs:
+      pv: {}
+  PV_SITE_4:
+    coordinates: {lat: -33.225, lon: -71.425}
+    techs:
+      pv: {}
+  PV_SITE_5:
+    coordinates: {lat: -33.225, lon: -71.325}
+    techs:
+      pv: {}
+  PV_SITE_6:
+    coordinates: {lat: -33.225, lon: -71.225}
+    techs:
+      pv: {}
+  PV_SITE_7:
+    coordinates: {lat: -33.225, lon: -71.125}
+    techs:
+      pv: {}
+  PV_SITE_8:
+    coordinates: {lat: -33.225, lon: -71.025}
+    techs:
+      pv: {}
+  PV_SITE_9:
+    coordinates: {lat: -33.225, lon: -70.925}
+    techs:
+      pv: {}
+  PV_SITE_10:
+    coordinates: {lat: -33.225, lon: -70.825}
+    techs:
+      pv: {}
+  PV_SITE_11:
+    coordinates: {lat: -33.225, lon: -70.725}
+    techs:
+      pv: {}
+  PV_SITE_12:
+    coordinates: {lat: -33.225, lon: -70.625}
+    techs:
+      pv: {}
+  PV_SITE_13:
+    coordinates: {lat: -33.225, lon: -70.525}
+    techs:
+      pv: {}
+  PV_SITE_14:
+    coordinates: {lat: -33.225, lon: -70.425}
+    techs:
+      pv: {}
+  PV_SITE_15:
+    coordinates: {lat: -33.225, lon: -70.325}
+    techs:
+      pv: {}
+  PV_SITE_16:
+    coordinates: {lat: -33.225, lon: -70.225}
+    techs:
+      pv: {}
+  PV_SITE_17:
+    coordinates: {lat: -33.225, lon: -70.125}
+    techs:
+      pv: {}
+  PV_SITE_18:
+    coordinates: {lat: -33.225, lon: -70.025}
+    techs:
+      pv: {}
+  PV_SITE_19:
+    coordinates: {lat: -33.175, lon: -71.725}
+    techs:
+      pv: {}
+  PV_SITE_20:
+    coordinates: {lat: -33.175, lon: -71.625}
+    techs:
+      pv: {}
+  PV_SITE_21:
+    coordinates: {lat: -33.175, lon: -71.525}
+    techs:
+      pv: {}
+  PV_SITE_22:
+    coordinates: {lat: -33.175, lon: -71.425}
+    techs:
+      pv: {}
+  PV_SITE_23:
+    coordinates: {lat: -33.175, lon: -71.325}
+    techs:
+      pv: {}
+  PV_SITE_24:
+    coordinates: {lat: -33.175, lon: -71.225}
+    techs:
+      pv: {}
+  PV_SITE_25:
+    coordinates: {lat: -33.175, lon: -71.125}
+    techs:
+      pv: {}
+  PV_SITE_26:
+    coordinates: {lat: -33.175, lon: -71.025}
+    techs:
+      pv: {}
+  PV_SITE_27:
+    coordinates: {lat: -33.175, lon: -70.925}
+    techs:
+      pv: {}
+  PV_SITE_28:
+    coordinates: {lat: -33.175, lon: -70.825}
+    techs:
+      pv: {}
+  PV_SITE_29:
+    coordinates: {lat: -33.175, lon: -70.725}
+    techs:
+      pv: {}
+  PV_SITE_30:
+    coordinates: {lat: -33.175, lon: -70.625}
+    techs:
+      pv: {}
+  PV_SITE_31:
+    coordinates: {lat: -33.175, lon: -70.525}
+    techs:
+      pv: {}
+  PV_SITE_32:
+    coordinates: {lat: -33.175, lon: -70.425}
+    techs:
+      pv: {}
+  PV_SITE_33:
+    coordinates: {lat: -33.175, lon: -70.325}
+    techs:
+      pv: {}
+  PV_SITE_34:
+    coordinates: {lat: -33.175, lon: -70.225}
+    techs:
+      pv: {}
+  PV_SITE_35:
+    coordinates: {lat: -33.175, lon: -70.125}
+    techs:
+      pv: {}
+  PV_SITE_36:
+    coordinates: {lat: -33.175, lon: -70.025}
+    techs:
+      pv: {}
+  PV_SITE_37:
+    coordinates: {lat: -33.125, lon: -71.725}
+    techs:
+      pv: {}
+  PV_SITE_38:
+    coordinates: {lat: -33.125, lon: -71.625}
+    techs:
+      pv: {}
+  PV_SITE_39:
+    coordinates: {lat: -33.125, lon: -71.525}
+    techs:
+      pv: {}
+  PV_SITE_40:
+    coordinates: {lat: -33.125, lon: -71.425}
+    techs:
+      pv: {}
+  PV_SITE_41:
+    coordinates: {lat: -33.125, lon: -71.325}
+    techs:
+      pv: {}
+  PV_SITE_42:
+    coordinates: {lat: -33.125, lon: -71.225}
+    techs:
+      pv: {}
+  PV_SITE_43:
+    coordinates: {lat: -33.125, lon: -71.125}
+    techs:
+      pv: {}
+  PV_SITE_44:
+    coordinates: {lat: -33.125, lon: -71.025}
+    techs:
+      pv: {}
+  PV_SITE_45:
+    coordinates: {lat: -33.125, lon: -70.925}
+    techs:
+      pv: {}
+  PV_SITE_46:
+    coordinates: {lat: -33.125, lon: -70.825}
+    techs:
+      pv: {}
+  PV_SITE_47:
+    coordinates: {lat: -33.125, lon: -70.725}
+    techs:
+      pv: {}
+  PV_SITE_48:
+    coordinates: {lat: -33.125, lon: -70.625}
+    techs:
+      pv: {}
+  PV_SITE_49:
+    coordinates: {lat: -33.125, lon: -70.525}
+    techs:
+      pv: {}
+  PV_SITE_50:
+    coordinates: {lat: -33.125, lon: -70.425}
+    techs:
+      pv: {}
+  PV_SITE_51:
+    coordinates: {lat: -33.125, lon: -70.325}
+    techs:
+      pv: {}
+  PV_SITE_52:
+    coordinates: {lat: -33.125, lon: -70.225}
+    techs:
+      pv: {}
+  PV_SITE_53:
+    coordinates: {lat: -33.125, lon: -70.125}
+    techs:
+      pv: {}
+  PV_SITE_54:
+    coordinates: {lat: -33.125, lon: -70.025}
+    techs:
+      pv: {}
+  PV_SITE_55:
+    coordinates: {lat: -33.075, lon: -71.725}
+    techs:
+      pv: {}
+  PV_SITE_56:
+    coordinates: {lat: -33.075, lon: -71.625}
+    techs:
+      pv: {}
+  PV_SITE_57:
+    coordinates: {lat: -33.075, lon: -71.525}
+    techs:
+      pv: {}
+  PV_SITE_58:
+    coordinates: {lat: -33.075, lon: -71.425}
+    techs:
+      pv: {}
+  PV_SITE_59:
+    coordinates: {lat: -33.075, lon: -71.325}
+    techs:
+      pv: {}
+  PV_SITE_60:
+    coordinates: {lat: -33.075, lon: -71.225}
+    techs:
+      pv: {}
+  PV_SITE_61:
+    coordinates: {lat: -33.075, lon: -71.125}
+    techs:
+      pv: {}
+  PV_SITE_62:
+    coordinates: {lat: -33.075, lon: -71.025}
+    techs:
+      pv: {}
+  PV_SITE_63:
+    coordinates: {lat: -33.075, lon: -70.925}
+    techs:
+      pv: {}
+  PV_SITE_64:
+    coordinates: {lat: -33.075, lon: -70.825}
+    techs:
+      pv: {}
+  PV_SITE_65:
+    coordinates: {lat: -33.075, lon: -70.725}
+    techs:
+      pv: {}
+  PV_SITE_66:
+    coordinates: {lat: -33.075, lon: -70.625}
+    techs:
+      pv: {}
+  PV_SITE_67:
+    coordinates: {lat: -33.075, lon: -70.525}
+    techs:
+      pv: {}
+  PV_SITE_68:
+    coordinates: {lat: -33.075, lon: -70.425}
+    techs:
+      pv: {}
+  PV_SITE_69:
+    coordinates: {lat: -33.075, lon: -70.325}
+    techs:
+      pv: {}
+  PV_SITE_70:
+    coordinates: {lat: -33.075, lon: -70.225}
+    techs:
+      pv: {}
+  PV_SITE_71:
+    coordinates: {lat: -33.075, lon: -70.125}
+    techs:
+      pv: {}
+  PV_SITE_72:
+    coordinates: {lat: -33.075, lon: -70.025}
+    techs:
+      pv: {}
+  PV_SITE_73:
+    coordinates: {lat: -33.025, lon: -71.725}
+    techs:
+      pv: {}
+  PV_SITE_74:
+    coordinates: {lat: -33.025, lon: -71.625}
+    techs:
+      pv: {}
+  PV_SITE_75:
+    coordinates: {lat: -33.025, lon: -71.525}
+    techs:
+      pv: {}
+  PV_SITE_76:
+    coordinates: {lat: -33.025, lon: -71.425}
+    techs:
+      pv: {}
+  PV_SITE_77:
+    coordinates: {lat: -33.025, lon: -71.325}
+    techs:
+      pv: {}
+  PV_SITE_78:
+    coordinates: {lat: -33.025, lon: -71.225}
+    techs:
+      pv: {}
+  PV_SITE_79:
+    coordinates: {lat: -33.025, lon: -71.125}
+    techs:
+      pv: {}
+  PV_SITE_80:
+    coordinates: {lat: -33.025, lon: -71.025}
+    techs:
+      pv: {}
+  PV_SITE_81:
+    coordinates: {lat: -33.025, lon: -70.925}
+    techs:
+      pv: {}
+  PV_SITE_82:
+    coordinates: {lat: -33.025, lon: -70.825}
+    techs:
+      pv: {}
+  PV_SITE_83:
+    coordinates: {lat: -33.025, lon: -70.725}
+    techs:
+      pv: {}
+  PV_SITE_84:
+    coordinates: {lat: -33.025, lon: -70.625}
+    techs:
+      pv: {}
+  PV_SITE_85:
+    coordinates: {lat: -33.025, lon: -70.525}
+    techs:
+      pv: {}
+  PV_SITE_86:
+    coordinates: {lat: -33.025, lon: -70.425}
+    techs:
+      pv: {}
+  PV_SITE_87:
+    coordinates: {lat: -33.025, lon: -70.325}
+    techs:
+      pv: {}
+  PV_SITE_88:
+    coordinates: {lat: -33.025, lon: -70.225}
+    techs:
+      pv: {}
+  PV_SITE_89:
+    coordinates: {lat: -33.025, lon: -70.125}
+    techs:
+      pv: {}
+  PV_SITE_90:
+    coordinates: {lat: -33.025, lon: -70.025}
+    techs:
+      pv: {}
+  PV_SITE_91:
+    coordinates: {lat: -32.975, lon: -71.525}
+    techs:
+      pv: {}
+  PV_SITE_92:
+    coordinates: {lat: -32.975, lon: -71.425}
+    techs:
+      pv: {}
+  PV_SITE_93:
+    coordinates: {lat: -32.975, lon: -71.325}
+    techs:
+      pv: {}
+  PV_SITE_94:
+    coordinates: {lat: -32.975, lon: -71.225}
+    techs:
+      pv: {}
+  PV_SITE_95:
+    coordinates: {lat: -32.975, lon: -71.125}
+    techs:
+      pv: {}
+  PV_SITE_96:
+    coordinates: {lat: -32.975, lon: -71.025}
+    techs:
+      pv: {}
+  PV_SITE_97:
+    coordinates: {lat: -32.975, lon: -70.925}
+    techs:
+      pv: {}
+  PV_SITE_98:
+    coordinates: {lat: -32.975, lon: -70.825}
+    techs:
+      pv: {}
+  PV_SITE_99:
+    coordinates: {lat: -32.975, lon: -70.725}
+    techs:
+      pv: {}
+  PV_SITE_100:
+    coordinates: {lat: -32.975, lon: -70.625}
+    techs:
+      pv: {}
+  PV_SITE_101:
+    coordinates: {lat: -32.975, lon: -70.525}
+    techs:
+      pv: {}
+  PV_SITE_102:
+    coordinates: {lat: -32.975, lon: -70.425}
+    techs:
+      pv: {}
+  PV_SITE_103:
+    coordinates: {lat: -32.975, lon: -70.325}
+    techs:
+      pv: {}
+  PV_SITE_104:
+    coordinates: {lat: -32.975, lon: -70.225}
+    techs:
+      pv: {}
+  PV_SITE_105:
+    coordinates: {lat: -32.975, lon: -70.125}
+    techs:
+      pv: {}
+  PV_SITE_106:
+    coordinates: {lat: -32.975, lon: -70.025}
+    techs:
+      pv: {}
+  PV_SITE_107:
+    coordinates: {lat: -32.925, lon: -71.525}
+    techs:
+      pv: {}
+  PV_SITE_108:
+    coordinates: {lat: -32.925, lon: -71.425}
+    techs:
+      pv: {}
+  PV_SITE_109:
+    coordinates: {lat: -32.925, lon: -71.325}
+    techs:
+      pv: {}
+  PV_SITE_110:
+    coordinates: {lat: -32.925, lon: -71.225}
+    techs:
+      pv: {}
+  PV_SITE_111:
+    coordinates: {lat: -32.925, lon: -71.125}
+    techs:
+      pv: {}
+  PV_SITE_112:
+    coordinates: {lat: -32.925, lon: -71.025}
+    techs:
+      pv: {}
+  PV_SITE_113:
+    coordinates: {lat: -32.925, lon: -70.925}
+    techs:
+      pv: {}
+  PV_SITE_114:
+    coordinates: {lat: -32.925, lon: -70.825}
+    techs:
+      pv: {}
+  PV_SITE_115:
+    coordinates: {lat: -32.925, lon: -70.725}
+    techs:
+      pv: {}
+  PV_SITE_116:
+    coordinates: {lat: -32.925, lon: -70.625}
+    techs:
+      pv: {}
+  PV_SITE_117:
+    coordinates: {lat: -32.925, lon: -70.525}
+    techs:
+      pv: {}
+  PV_SITE_118:
+    coordinates: {lat: -32.925, lon: -70.425}
+    techs:
+      pv: {}
+  PV_SITE_119:
+    coordinates: {lat: -32.925, lon: -70.325}
+    techs:
+      pv: {}
+  PV_SITE_120:
+    coordinates: {lat: -32.925, lon: -70.225}
+    techs:
+      pv: {}
+  PV_SITE_121:
+    coordinates: {lat: -32.925, lon: -70.125}
+    techs:
+      pv: {}
+  PV_SITE_122:
+    coordinates: {lat: -32.925, lon: -70.025}
+    techs:
+      pv: {}
+  PV_SITE_123:
+    coordinates: {lat: -32.875, lon: -71.525}
+    techs:
+      pv: {}
+  PV_SITE_124:
+    coordinates: {lat: -32.875, lon: -71.425}
+    techs:
+      pv: {}
+  PV_SITE_125:
+    coordinates: {lat: -32.875, lon: -71.325}
+    techs:
+      pv: {}
+  PV_SITE_126:
+    coordinates: {lat: -32.875, lon: -71.225}
+    techs:
+      pv: {}
+  PV_SITE_127:
+    coordinates: {lat: -32.875, lon: -71.125}
+    techs:
+      pv: {}
+  PV_SITE_128:
+    coordinates: {lat: -32.875, lon: -71.025}
+    techs:
+      pv: {}
+  PV_SITE_129:
+    coordinates: {lat: -32.875, lon: -70.925}
+    techs:
+      pv: {}
+  PV_SITE_130:
+    coordinates: {lat: -32.875, lon: -70.825}
+    techs:
+      pv: {}
+  PV_SITE_131:
+    coordinates: {lat: -32.875, lon: -70.725}
+    techs:
+      pv: {}
+  PV_SITE_132:
+    coordinates: {lat: -32.875, lon: -70.625}
+    techs:
+      pv: {}
+  PV_SITE_133:
+    coordinates: {lat: -32.875, lon: -70.525}
+    techs:
+      pv: {}
+  PV_SITE_134:
+    coordinates: {lat: -32.875, lon: -70.425}
+    techs:
+      pv: {}
+  PV_SITE_135:
+    coordinates: {lat: -32.875, lon: -70.325}
+    techs:
+      pv: {}
+  PV_SITE_136:
+    coordinates: {lat: -32.875, lon: -70.225}
+    techs:
+      pv: {}
+  PV_SITE_137:
+    coordinates: {lat: -32.875, lon: -70.125}
+    techs:
+      pv: {}
+  PV_SITE_138:
+    coordinates: {lat: -32.875, lon: -70.025}
+    techs:
+      pv: {}
+  PV_SITE_139:
+    coordinates: {lat: -32.825, lon: -71.525}
+    techs:
+      pv: {}
+  PV_SITE_140:
+    coordinates: {lat: -32.825, lon: -71.425}
+    techs:
+      pv: {}
+  PV_SITE_141:
+    coordinates: {lat: -32.825, lon: -71.325}
+    techs:
+      pv: {}
+  PV_SITE_142:
+    coordinates: {lat: -32.825, lon: -71.225}
+    techs:
+      pv: {}
+  PV_SITE_143:
+    coordinates: {lat: -32.825, lon: -71.125}
+    techs:
+      pv: {}
+  PV_SITE_144:
+    coordinates: {lat: -32.825, lon: -71.025}
+    techs:
+      pv: {}
+  PV_SITE_145:
+    coordinates: {lat: -32.825, lon: -70.925}
+    techs:
+      pv: {}
+  PV_SITE_146:
+    coordinates: {lat: -32.825, lon: -70.825}
+    techs:
+      pv: {}
+  PV_SITE_147:
+    coordinates: {lat: -32.825, lon: -70.725}
+    techs:
+      pv: {}
+  PV_SITE_148:
+    coordinates: {lat: -32.825, lon: -70.625}
+    techs:
+      pv: {}
+  PV_SITE_149:
+    coordinates: {lat: -32.825, lon: -70.525}
+    techs:
+      pv: {}
+  PV_SITE_150:
+    coordinates: {lat: -32.825, lon: -70.425}
+    techs:
+      pv: {}
+  PV_SITE_151:
+    coordinates: {lat: -32.825, lon: -70.325}
+    techs:
+      pv: {}
+  PV_SITE_152:
+    coordinates: {lat: -32.825, lon: -70.225}
+    techs:
+      pv: {}
+  PV_SITE_153:
+    coordinates: {lat: -32.825, lon: -70.125}
+    techs:
+      pv: {}
+  PV_SITE_154:
+    coordinates: {lat: -32.825, lon: -70.025}
+    techs:
+      pv: {}
+  PV_SITE_155:
+    coordinates: {lat: -32.775, lon: -71.525}
+    techs:
+      pv: {}
+  PV_SITE_156:
+    coordinates: {lat: -32.775, lon: -71.425}
+    techs:
+      pv: {}
+  PV_SITE_157:
+    coordinates: {lat: -32.775, lon: -71.325}
+    techs:
+      pv: {}
+  PV_SITE_158:
+    coordinates: {lat: -32.775, lon: -71.225}
+    techs:
+      pv: {}
+  PV_SITE_159:
+    coordinates: {lat: -32.775, lon: -71.125}
+    techs:
+      pv: {}
+  PV_SITE_160:
+    coordinates: {lat: -32.775, lon: -71.025}
+    techs:
+      pv: {}
+  PV_SITE_161:
+    coordinates: {lat: -32.775, lon: -70.925}
+    techs:
+      pv: {}
+  PV_SITE_162:
+    coordinates: {lat: -32.775, lon: -70.825}
+    techs:
+      pv: {}
+  PV_SITE_163:
+    coordinates: {lat: -32.775, lon: -70.725}
+    techs:
+      pv: {}
+  PV_SITE_164:
+    coordinates: {lat: -32.775, lon: -70.625}
+    techs:
+      pv: {}
+  PV_SITE_165:
+    coordinates: {lat: -32.775, lon: -70.525}
+    techs:
+      pv: {}
+  PV_SITE_166:
+    coordinates: {lat: -32.775, lon: -70.425}
+    techs:
+      pv: {}
+  PV_SITE_167:
+    coordinates: {lat: -32.775, lon: -70.325}
+    techs:
+      pv: {}
+  PV_SITE_168:
+    coordinates: {lat: -32.775, lon: -70.225}
+    techs:
+      pv: {}
+  PV_SITE_169:
+    coordinates: {lat: -32.775, lon: -70.125}
+    techs:
+      pv: {}
+  PV_SITE_170:
+    coordinates: {lat: -32.775, lon: -70.025}
+    techs:
+      pv: {}
+  PV_SITE_171:
+    coordinates: {lat: -32.725, lon: -71.525}
+    techs:
+      pv: {}
+  PV_SITE_172:
+    coordinates: {lat: -32.725, lon: -71.425}
+    techs:
+      pv: {}
+  PV_SITE_173:
+    coordinates: {lat: -32.725, lon: -71.325}
+    techs:
+      pv: {}
+  PV_SITE_174:
+    coordinates: {lat: -32.725, lon: -71.225}
+    techs:
+      pv: {}
+  PV_SITE_175:
+    coordinates: {lat: -32.725, lon: -71.125}
+    techs:
+      pv: {}
+  PV_SITE_176:
+    coordinates: {lat: -32.725, lon: -71.025}
+    techs:
+      pv: {}
+  PV_SITE_177:
+    coordinates: {lat: -32.725, lon: -70.925}
+    techs:
+      pv: {}
+  PV_SITE_178:
+    coordinates: {lat: -32.725, lon: -70.825}
+    techs:
+      pv: {}
+  PV_SITE_179:
+    coordinates: {lat: -32.725, lon: -70.725}
+    techs:
+      pv: {}
+  PV_SITE_180:
+    coordinates: {lat: -32.725, lon: -70.625}
+    techs:
+      pv: {}
+  PV_SITE_181:
+    coordinates: {lat: -32.725, lon: -70.525}
+    techs:
+      pv: {}
+  PV_SITE_182:
+    coordinates: {lat: -32.725, lon: -70.425}
+    techs:
+      pv: {}
+  PV_SITE_183:
+    coordinates: {lat: -32.725, lon: -70.325}
+    techs:
+      pv: {}
+  PV_SITE_184:
+    coordinates: {lat: -32.725, lon: -70.225}
+    techs:
+      pv: {}
+  PV_SITE_185:
+    coordinates: {lat: -32.725, lon: -70.125}
+    techs:
+      pv: {}
+  PV_SITE_186:
+    coordinates: {lat: -32.725, lon: -70.025}
+    techs:
+      pv: {}
+  PV_SITE_187:
+    coordinates: {lat: -32.675, lon: -71.525}
+    techs:
+      pv: {}
+  PV_SITE_188:
+    coordinates: {lat: -32.675, lon: -71.425}
+    techs:
+      pv: {}
+  PV_SITE_189:
+    coordinates: {lat: -32.675, lon: -71.325}
+    techs:
+      pv: {}
+  PV_SITE_190:
+    coordinates: {lat: -32.675, lon: -71.225}
+    techs:
+      pv: {}
+  PV_SITE_191:
+    coordinates: {lat: -32.675, lon: -71.125}
+    techs:
+      pv: {}
+  PV_SITE_192:
+    coordinates: {lat: -32.675, lon: -71.025}
+    techs:
+      pv: {}
+  PV_SITE_193:
+    coordinates: {lat: -32.675, lon: -70.925}
+    techs:
+      pv: {}
+  PV_SITE_194:
+    coordinates: {lat: -32.675, lon: -70.825}
+    techs:
+      pv: {}
+  PV_SITE_195:
+    coordinates: {lat: -32.675, lon: -70.725}
+    techs:
+      pv: {}
+  PV_SITE_196:
+    coordinates: {lat: -32.675, lon: -70.625}
+    techs:
+      pv: {}
+  PV_SITE_197:
+    coordinates: {lat: -32.675, lon: -70.525}
+    techs:
+      pv: {}
+  PV_SITE_198:
+    coordinates: {lat: -32.675, lon: -70.425}
+    techs:
+      pv: {}
+  PV_SITE_199:
+    coordinates: {lat: -32.675, lon: -70.325}
+    techs:
+      pv: {}
+  PV_SITE_200:
+    coordinates: {lat: -32.675, lon: -70.225}
+    techs:
+      pv: {}
+  PV_SITE_201:
+    coordinates: {lat: -32.675, lon: -70.125}
+    techs:
+      pv: {}
+  PV_SITE_202:
+    coordinates: {lat: -32.675, lon: -70.025}
+    techs:
+      pv: {}
+  PV_SITE_203:
+    coordinates: {lat: -32.625, lon: -71.525}
+    techs:
+      pv: {}
+  PV_SITE_204:
+    coordinates: {lat: -32.625, lon: -71.425}
+    techs:
+      pv: {}
+  PV_SITE_205:
+    coordinates: {lat: -32.625, lon: -71.325}
+    techs:
+      pv: {}
+  PV_SITE_206:
+    coordinates: {lat: -32.625, lon: -71.225}
+    techs:
+      pv: {}
+  PV_SITE_207:
+    coordinates: {lat: -32.625, lon: -71.125}
+    techs:
+      pv: {}
+  PV_SITE_208:
+    coordinates: {lat: -32.625, lon: -71.025}
+    techs:
+      pv: {}
+  PV_SITE_209:
+    coordinates: {lat: -32.625, lon: -70.925}
+    techs:
+      pv: {}
+  PV_SITE_210:
+    coordinates: {lat: -32.625, lon: -70.825}
+    techs:
+      pv: {}
+  PV_SITE_211:
+    coordinates: {lat: -32.625, lon: -70.725}
+    techs:
+      pv: {}
+  PV_SITE_212:
+    coordinates: {lat: -32.625, lon: -70.625}
+    techs:
+      pv: {}
+  PV_SITE_213:
+    coordinates: {lat: -32.625, lon: -70.525}
+    techs:
+      pv: {}
+  PV_SITE_214:
+    coordinates: {lat: -32.625, lon: -70.425}
+    techs:
+      pv: {}
+  PV_SITE_215:
+    coordinates: {lat: -32.625, lon: -70.325}
+    techs:
+      pv: {}
+  PV_SITE_216:
+    coordinates: {lat: -32.625, lon: -70.225}
+    techs:
+      pv: {}
+  PV_SITE_217:
+    coordinates: {lat: -32.625, lon: -70.125}
+    techs:
+      pv: {}
+  PV_SITE_218:
+    coordinates: {lat: -32.625, lon: -70.025}
+    techs:
+      pv: {}
+  PV_SITE_219:
+    coordinates: {lat: -32.575, lon: -71.525}
+    techs:
+      pv: {}
+  PV_SITE_220:
+    coordinates: {lat: -32.575, lon: -71.425}
+    techs:
+      pv: {}
+  PV_SITE_221:
+    coordinates: {lat: -32.575, lon: -71.325}
+    techs:
+      pv: {}
+  PV_SITE_222:
+    coordinates: {lat: -32.575, lon: -71.225}
+    techs:
+      pv: {}
+  PV_SITE_223:
+    coordinates: {lat: -32.575, lon: -71.125}
+    techs:
+      pv: {}
+  PV_SITE_224:
+    coordinates: {lat: -32.575, lon: -71.025}
+    techs:
+      pv: {}
+  PV_SITE_225:
+    coordinates: {lat: -32.575, lon: -70.925}
+    techs:
+      pv: {}
+  PV_SITE_226:
+    coordinates: {lat: -32.575, lon: -70.825}
+    techs:
+      pv: {}
+  PV_SITE_227:
+    coordinates: {lat: -32.575, lon: -70.725}
+    techs:
+      pv: {}
+  PV_SITE_228:
+    coordinates: {lat: -32.575, lon: -70.625}
+    techs:
+      pv: {}
+  PV_SITE_229:
+    coordinates: {lat: -32.575, lon: -70.525}
+    techs:
+      pv: {}
+  PV_SITE_230:
+    coordinates: {lat: -32.575, lon: -70.425}
+    techs:
+      pv: {}
+  PV_SITE_231:
+    coordinates: {lat: -32.575, lon: -70.325}
+    techs:
+      pv: {}
+  PV_SITE_232:
+    coordinates: {lat: -32.575, lon: -70.225}
+    techs:
+      pv: {}
+  PV_SITE_233:
+    coordinates: {lat: -32.575, lon: -70.125}
+    techs:
+      pv: {}
+  PV_SITE_234:
+    coordinates: {lat: -32.575, lon: -70.025}
+    techs:
+      pv: {}
+  PV_SITE_235:
+    coordinates: {lat: -32.525, lon: -71.525}
+    techs:
+      pv: {}
+  PV_SITE_236:
+    coordinates: {lat: -32.525, lon: -71.425}
+    techs:
+      pv: {}
+  PV_SITE_237:
+    coordinates: {lat: -32.525, lon: -71.325}
+    techs:
+      pv: {}
+  PV_SITE_238:
+    coordinates: {lat: -32.525, lon: -71.225}
+    techs:
+      pv: {}
+  PV_SITE_239:
+    coordinates: {lat: -32.525, lon: -71.125}
+    techs:
+      pv: {}
+  PV_SITE_240:
+    coordinates: {lat: -32.525, lon: -71.025}
+    techs:
+      pv: {}
+  PV_SITE_241:
+    coordinates: {lat: -32.525, lon: -70.925}
+    techs:
+      pv: {}
+  PV_SITE_242:
+    coordinates: {lat: -32.525, lon: -70.825}
+    techs:
+      pv: {}
+  PV_SITE_243:
+    coordinates: {lat: -32.525, lon: -70.725}
+    techs:
+      pv: {}
+  PV_SITE_244:
+    coordinates: {lat: -32.525, lon: -70.625}
+    techs:
+      pv: {}
+  PV_SITE_245:
+    coordinates: {lat: -32.525, lon: -70.525}
+    techs:
+      pv: {}
+  PV_SITE_246:
+    coordinates: {lat: -32.525, lon: -70.425}
+    techs:
+      pv: {}
+  PV_SITE_247:
+    coordinates: {lat: -32.525, lon: -70.325}
+    techs:
+      pv: {}
+  PV_SITE_248:
+    coordinates: {lat: -32.525, lon: -70.225}
+    techs:
+      pv: {}
+  PV_SITE_249:
+    coordinates: {lat: -32.525, lon: -70.125}
+    techs:
+      pv: {}
+  PV_SITE_250:
+    coordinates: {lat: -32.525, lon: -70.025}
+    techs:
+      pv: {}
+  PV_SITE_251:
+    coordinates: {lat: -32.475, lon: -71.525}
+    techs:
+      pv: {}
+  PV_SITE_252:
+    coordinates: {lat: -32.475, lon: -71.425}
+    techs:
+      pv: {}
+  PV_SITE_253:
+    coordinates: {lat: -32.475, lon: -71.325}
+    techs:
+      pv: {}
+  PV_SITE_254:
+    coordinates: {lat: -32.475, lon: -71.225}
+    techs:
+      pv: {}
+  PV_SITE_255:
+    coordinates: {lat: -32.475, lon: -71.125}
+    techs:
+      pv: {}
+  PV_SITE_256:
+    coordinates: {lat: -32.475, lon: -71.025}
+    techs:
+      pv: {}
+  PV_SITE_257:
+    coordinates: {lat: -32.475, lon: -70.925}
+    techs:
+      pv: {}
+  PV_SITE_258:
+    coordinates: {lat: -32.475, lon: -70.825}
+    techs:
+      pv: {}
+  PV_SITE_259:
+    coordinates: {lat: -32.475, lon: -70.725}
+    techs:
+      pv: {}
+  PV_SITE_260:
+    coordinates: {lat: -32.475, lon: -70.625}
+    techs:
+      pv: {}
+  PV_SITE_261:
+    coordinates: {lat: -32.475, lon: -70.525}
+    techs:
+      pv: {}
+  PV_SITE_262:
+    coordinates: {lat: -32.475, lon: -70.425}
+    techs:
+      pv: {}
+  PV_SITE_263:
+    coordinates: {lat: -32.475, lon: -70.325}
+    techs:
+      pv: {}
+  PV_SITE_264:
+    coordinates: {lat: -32.475, lon: -70.225}
+    techs:
+      pv: {}
+  PV_SITE_265:
+    coordinates: {lat: -32.475, lon: -70.125}
+    techs:
+      pv: {}
+  PV_SITE_266:
+    coordinates: {lat: -32.475, lon: -70.025}
+    techs:
+      pv: {}
+  PV_SITE_267:
+    coordinates: {lat: -32.425, lon: -71.525}
+    techs:
+      pv: {}
+  PV_SITE_268:
+    coordinates: {lat: -32.425, lon: -71.425}
+    techs:
+      pv: {}
+  PV_SITE_269:
+    coordinates: {lat: -32.425, lon: -71.325}
+    techs:
+      pv: {}
+  PV_SITE_270:
+    coordinates: {lat: -32.425, lon: -71.225}
+    techs:
+      pv: {}
+  PV_SITE_271:
+    coordinates: {lat: -32.425, lon: -71.125}
+    techs:
+      pv: {}
+  PV_SITE_272:
+    coordinates: {lat: -32.425, lon: -71.025}
+    techs:
+      pv: {}
+  PV_SITE_273:
+    coordinates: {lat: -32.425, lon: -70.925}
+    techs:
+      pv: {}
+  PV_SITE_274:
+    coordinates: {lat: -32.425, lon: -70.825}
+    techs:
+      pv: {}
+  PV_SITE_275:
+    coordinates: {lat: -32.425, lon: -70.725}
+    techs:
+      pv: {}
+  PV_SITE_276:
+    coordinates: {lat: -32.425, lon: -70.625}
+    techs:
+      pv: {}
+  PV_SITE_277:
+    coordinates: {lat: -32.425, lon: -70.525}
+    techs:
+      pv: {}
+  PV_SITE_278:
+    coordinates: {lat: -32.425, lon: -70.425}
+    techs:
+      pv: {}
+  PV_SITE_279:
+    coordinates: {lat: -32.425, lon: -70.325}
+    techs:
+      pv: {}
+  PV_SITE_280:
+    coordinates: {lat: -32.425, lon: -70.225}
+    techs:
+      pv: {}
+  PV_SITE_281:
+    coordinates: {lat: -32.425, lon: -70.125}
+    techs:
+      pv: {}
+  PV_SITE_282:
+    coordinates: {lat: -32.425, lon: -70.025}
+    techs:
+      pv: {}
+  PV_SITE_283:
+    coordinates: {lat: -32.375, lon: -71.525}
+    techs:
+      pv: {}
+  PV_SITE_284:
+    coordinates: {lat: -32.375, lon: -71.425}
+    techs:
+      pv: {}
+  PV_SITE_285:
+    coordinates: {lat: -32.375, lon: -71.325}
+    techs:
+      pv: {}
+  PV_SITE_286:
+    coordinates: {lat: -32.375, lon: -71.225}
+    techs:
+      pv: {}
+  PV_SITE_287:
+    coordinates: {lat: -32.375, lon: -71.125}
+    techs:
+      pv: {}
+  PV_SITE_288:
+    coordinates: {lat: -32.375, lon: -71.025}
+    techs:
+      pv: {}
+  PV_SITE_289:
+    coordinates: {lat: -32.375, lon: -70.925}
+    techs:
+      pv: {}
+  PV_SITE_290:
+    coordinates: {lat: -32.375, lon: -70.825}
+    techs:
+      pv: {}
+  PV_SITE_291:
+    coordinates: {lat: -32.375, lon: -70.725}
+    techs:
+      pv: {}
+  PV_SITE_292:
+    coordinates: {lat: -32.375, lon: -70.625}
+    techs:
+      pv: {}
+  PV_SITE_293:
+    coordinates: {lat: -32.375, lon: -70.525}
+    techs:
+      pv: {}
+  PV_SITE_294:
+    coordinates: {lat: -32.375, lon: -70.425}
+    techs:
+      pv: {}
+  PV_SITE_295:
+    coordinates: {lat: -32.375, lon: -70.325}
+    techs:
+      pv: {}
+  PV_SITE_296:
+    coordinates: {lat: -32.375, lon: -70.225}
+    techs:
+      pv: {}
+  PV_SITE_297:
+    coordinates: {lat: -32.375, lon: -70.125}
+    techs:
+      pv: {}
+  PV_SITE_298:
+    coordinates: {lat: -32.375, lon: -70.025}
+    techs:
+      pv: {}
+  PV_SITE_299:
+    coordinates: {lat: -32.325, lon: -71.525}
+    techs:
+      pv: {}
+  PV_SITE_300:
+    coordinates: {lat: -32.325, lon: -71.425}
+    techs:
+      pv: {}
+  PV_SITE_301:
+    coordinates: {lat: -32.325, lon: -71.325}
+    techs:
+      pv: {}
+  PV_SITE_302:
+    coordinates: {lat: -32.325, lon: -71.225}
+    techs:
+      pv: {}
+  PV_SITE_303:
+    coordinates: {lat: -32.325, lon: -71.125}
+    techs:
+      pv: {}
+  PV_SITE_304:
+    coordinates: {lat: -32.325, lon: -71.025}
+    techs:
+      pv: {}
+  PV_SITE_305:
+    coordinates: {lat: -32.325, lon: -70.925}
+    techs:
+      pv: {}
+  PV_SITE_306:
+    coordinates: {lat: -32.325, lon: -70.825}
+    techs:
+      pv: {}
+  PV_SITE_307:
+    coordinates: {lat: -32.325, lon: -70.725}
+    techs:
+      pv: {}
+  PV_SITE_308:
+    coordinates: {lat: -32.325, lon: -70.625}
+    techs:
+      pv: {}
+  PV_SITE_309:
+    coordinates: {lat: -32.325, lon: -70.525}
+    techs:
+      pv: {}
+  PV_SITE_310:
+    coordinates: {lat: -32.325, lon: -70.425}
+    techs:
+      pv: {}
+  PV_SITE_311:
+    coordinates: {lat: -32.325, lon: -70.325}
+    techs:
+      pv: {}
+  PV_SITE_312:
+    coordinates: {lat: -32.325, lon: -70.225}
+    techs:
+      pv: {}
+  PV_SITE_313:
+    coordinates: {lat: -32.325, lon: -70.125}
+    techs:
+      pv: {}
+  PV_SITE_314:
+    coordinates: {lat: -32.325, lon: -70.025}
+    techs:
+      pv: {}
+  PV_SITE_315:
+    coordinates: {lat: -32.275, lon: -71.525}
+    techs:
+      pv: {}
+  PV_SITE_316:
+    coordinates: {lat: -32.275, lon: -71.425}
+    techs:
+      pv: {}
+  PV_SITE_317:
+    coordinates: {lat: -32.275, lon: -71.325}
+    techs:
+      pv: {}
+  PV_SITE_318:
+    coordinates: {lat: -32.275, lon: -71.225}
+    techs:
+      pv: {}
+  PV_SITE_319:
+    coordinates: {lat: -32.275, lon: -71.125}
+    techs:
+      pv: {}
+  PV_SITE_320:
+    coordinates: {lat: -32.275, lon: -71.025}
+    techs:
+      pv: {}
+  PV_SITE_321:
+    coordinates: {lat: -32.275, lon: -70.925}
+    techs:
+      pv: {}
+  PV_SITE_322:
+    coordinates: {lat: -32.275, lon: -70.825}
+    techs:
+      pv: {}
+  PV_SITE_323:
+    coordinates: {lat: -32.275, lon: -70.725}
+    techs:
+      pv: {}
+  PV_SITE_324:
+    coordinates: {lat: -32.275, lon: -70.625}
+    techs:
+      pv: {}
+  PV_SITE_325:
+    coordinates: {lat: -32.275, lon: -70.525}
+    techs:
+      pv: {}
+  PV_SITE_326:
+    coordinates: {lat: -32.275, lon: -70.425}
+    techs:
+      pv: {}
+  PV_SITE_327:
+    coordinates: {lat: -32.275, lon: -70.325}
+    techs:
+      pv: {}
+  PV_SITE_328:
+    coordinates: {lat: -32.275, lon: -70.225}
+    techs:
+      pv: {}
+  PV_SITE_329:
+    coordinates: {lat: -32.275, lon: -70.125}
+    techs:
+      pv: {}
+  PV_SITE_330:
+    coordinates: {lat: -32.275, lon: -70.025}
+    techs:
+      pv: {}

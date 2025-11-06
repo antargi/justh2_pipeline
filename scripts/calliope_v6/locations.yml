@@ -1,0 +1,14 @@
+locations:
+  PV_SITE:
+    coordinates: {lat: -32.788658, lon: -71.026503}
+    techs:
+      pv: {}
+
+  VALPO:
+    coordinates: {lat: -33.0, lon: -71.6}
+    techs:
+      electrolyzer: {}
+      h2_store: {}
+      demand_h2: {}
+      seawater_supply: {}
+      desalination: {}

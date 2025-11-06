@@ -1,0 +1,134 @@
+techs:
+
+# Generador de energía renovable
+  pv:
+    essentials:
+      name: PV
+      carrier_out: electricity
+      parent: supply
+    constraints:
+      resource: file=pv_cf.csv:PV_SITE        # CF (0–1)
+      resource_unit: energy_per_cap
+      energy_cap_max: 5000             # MW (realista para proyectos grandes)
+      lifetime: 25  
+    costs.monetary:
+      interest_rate: 0.07
+      energy_cap: 700000              # $/MW-año (placeholder)
+      om_annual: 15000
+    costs.co2:
+      om_prod: 0.0
+
+# Generador de H2V
+  electrolyzer:
+    essentials:
+      name: PEM electrolyzer
+      carrier_in: electricity
+      carrier_in_2: water
+      carrier_out: hydrogen
+      parent: conversion_plus
+      primary_carrier_in: electricity         
+    constraints:
+      energy_eff: 0.68                # HHV aprox
+      energy_cap_max: 10000            # MW_e (centralizado en VALPO)
+      lifetime: 15
+      carrier_ratios:                         # => consumos/producciones por unidad de H2
+        carrier_in:
+          electricity: 1.0                    # => 1 “unidad” base de electricidad
+        carrier_in_2:
+          water: 0.27                         # => ~0.27 m³ de agua por 1 MWh_H2 (*)
+        carrier_out:
+          hydrogen: 1.0                       # => 1 “unidad” de salida de H2
+    costs.monetary:
+      interest_rate: 0.07 
+      energy_cap: 900000
+      om_annual: 25000
+    costs.co2:
+      om_con: 0.0 
+
+# Almacenamiento 
+  h2_store:
+    essentials:
+      name: H2 storage
+      parent: storage
+      carrier: hydrogen
+    constraints:
+      storage_cap_max: 500000           # MWh_H2 (placeholder)
+      storage_loss: 0.0005            # por hora
+      energy_cap_per_storage_cap_max: 1.0
+      lifetime: 20
+    costs.monetary:
+      interest_rate: 0.07 
+      storage_cap: 200000
+
+# tecnología que va a demandar h2v
+  demand_h2:
+    essentials:
+      name: H2 demand
+      parent: demand
+      carrier: hydrogen
+    constraints:
+      resource: file=demand_h2_batch.csv
+      resource_unit: energy
+
+# tecnología para la fuente de agua
+  water_supply:
+    essentials:
+      parent: supply
+      carrier_out: water
+    constraints:
+      resource: inf
+    costs:
+      monetary:
+        om_prod: 0.3                       # => pon aquí $/m³ si quieres costear el agua
+
+# tecnología para transmitir la electricidad desde pv al electrolizador
+  ac_line:
+    essentials:
+      name: AC transmission
+      parent: transmission            # => tecnología de transmisión
+      carrier: electricity
+    constraints:
+      energy_eff: 0.95                # => pérdidas 5% (opcional ajustar)
+      energy_cap_max: 5000            # => MW máx en la línea (ajusta)
+      lifetime: 40
+    costs:
+      monetary:
+        interest_rate: 0.07 
+        energy_cap: 120000            # => $/MW-año (placeholder)
+        om_annual: 3000
+
+# desaladora
+
+# === Fuente de "agua de mar" (infinita, si modelas al borde costero) ===
+  seawater_supply:
+    essentials:
+      parent: supply
+      carrier_out: seawater
+    constraints:
+      resource: inf                      # => disponibilidad "ilimitada" de agua de mar
+    costs.monetary:
+      om_prod: 0.0
+
+# === Desalación RO (consumo eléctrico por m3 de agua dulce) ===
+  desalination:
+    essentials:
+      parent: conversion_plus
+      carrier_in: [electricity, seawater]  # => entradas: electricidad + agua de mar
+      carrier_out: water                   # => salida: agua dulce
+      primary_carrier_in: electricity
+    constraints:
+      # Opción 1 (simple): modelar la energía por m3 con 'energy_eff' efectivo
+      #   Si la unidad de 'water' es m3 y 1 "energía" eléctrica = 1 kWh,
+      #   y RO ≈ 3.5 kWh/m3, una eficiencia "agua/elec" puede pensarse como 1/3.5.
+      energy_eff: 0.2857                 # => ~ 1 / 3.5 kWh/m3 (ajusta a 3–5 kWh/m3)
+      carrier_ratios:
+        carrier_in:
+          seawater: 1.1                  # => 1.1 m3 de mar por 1 m3 de dulce (rechazo salmuera)
+        carrier_out:
+          water: 1.0
+      energy_cap_max: 50                 # => MW_e máximos de la desaladora (ajusta)
+      lifetime: 25
+    costs.monetary:
+      interest_rate: 0.07
+      energy_cap: 800000                 # => $/MW-año (placeholder)
+      om_prod: 0.5                       # => $/m3 tratado (químicos, O&M)

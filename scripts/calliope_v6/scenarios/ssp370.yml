@@ -1,0 +1,4 @@
+techs:
+  pv:
+    constraints:
+      resource: file=pv_cf_batch/pv_cf_ssp370.csv

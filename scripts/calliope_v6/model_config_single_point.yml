@@ -1,0 +1,42 @@
+# Configuración Calliope para UN PUNTO (modelo distribuido)
+# Este modelo se ejecuta 330 veces (una por cada coordenada válida)
+
+import:
+  - 'techs.yml'
+  - 'locations_single_point.yml'
+
+model:
+  name: H2V Production Single Point
+  timeseries_data_path: 'data'
+  
+techs:
+  pv:
+  electrolyzer:
+  h2_store:
+  demand_h2:
+  water_supply:
+  seawater_supply:
+  desalination:
+
+locations:
+  POINT:
+    techs:
+      pv:
+      electrolyzer:
+      h2_store:
+      demand_h2:
+      water_supply:
+      seawater_supply:
+      desalination:
+
+run:
+  mode: plan
+  solver: glpk
+  solver_io: python
+  ensure_feasibility: true
+  bigM: 1e9
+  zero_threshold: 1e-10
+
+# Restricciones de optimización
+model:
+  subset_time: null  # Se sobreescribe en código para quick tests
