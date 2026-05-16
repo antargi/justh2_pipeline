@@ -1,0 +1,1352 @@
+scenario: ssp245
+applied_overrides: ov_ssp245;quick_test
+techs:
+  ac_line:
+    inheritance:
+    - transmission
+    essentials:
+      parent: transmission  # From parent tech_group `transmission`
+      carrier: electricity
+      name: AC transmission
+      carrier_in: electricity  # Set from essentials.carrier
+      carrier_out: electricity
+      color: '#19122b'  # From Calliope default palette
+    constraints: {}
+    required_constraints: []
+    allowed_constraints:
+    - energy_cap_equals
+    - energy_cap_min
+    - energy_cap_max
+    - energy_cap_per_unit
+    - energy_cap_scale
+    - energy_con
+    - energy_eff
+    - energy_eff_per_distance
+    - energy_prod
+    - force_asynchronous_prod_con
+    - lifetime
+    - one_way
+    allowed_group_constraints:
+    - cost_max
+    - cost_min
+    - cost_equals
+    - cost_var_max
+    - cost_var_min
+    - cost_var_equals
+    - cost_investment_min
+    - cost_investment_max
+    - cost_investment_equals
+    - energy_cap_min
+    - energy_cap_max
+    - energy_cap_equals
+    - net_import_share_min
+    - net_import_share_max
+    - net_import_share_equals
+    allowed_costs:
+    - depreciation_rate
+    - energy_cap
+    - energy_cap_per_distance
+    - interest_rate
+    - om_annual
+    - om_annual_investment_fraction
+    - om_prod
+    - purchase
+    - purchase_per_distance
+  demand_h2:
+    inheritance:
+    - demand
+    essentials:
+      parent: demand  # From parent tech_group `demand`
+      carrier: hydrogen
+      name: H2 demand
+      carrier_in: hydrogen  # Set from essentials.carrier
+      carrier_out: resource
+      color: '#17344c'  # From Calliope default palette
+    constraints: {}
+    required_constraints:
+    - resource
+    allowed_constraints:
+    - energy_con
+    - force_resource
+    - resource
+    - resource_area_equals
+    - resource_scale
+    - resource_unit
+    allowed_group_constraints:
+    - cost_max
+    - cost_min
+    - cost_equals
+    - cost_var_max
+    - cost_var_min
+    - cost_var_equals
+    - carrier_con_min
+    - carrier_con_max
+    - carrier_con_equals
+    allowed_costs:
+    - om_con
+  desalination:
+    inheritance:
+    - conversion_plus
+    essentials:
+      parent: conversion_plus  # From parent tech_group `conversion_plus`
+      carrier_in:
+      - electricity
+      - seawater
+      carrier_out: water
+      primary_carrier_in: electricity
+      primary_carrier_out: water
+      color: '#185b48'  # From Calliope default palette
+    constraints: {}
+    required_constraints: []
+    allowed_constraints:
+    - carrier_ratios
+    - energy_cap_equals
+    - energy_cap_equals_systemwide
+    - energy_cap_max
+    - energy_cap_max_systemwide
+    - energy_cap_min
+    - energy_cap_min_use
+    - energy_cap_per_unit
+    - energy_cap_scale
+    - energy_con
+    - energy_eff
+    - energy_prod
+    - energy_ramping
+    - export_cap
+    - export_carrier
+    - lifetime
+    - units_equals
+    - units_equals_systemwide
+    - units_max
+    - units_max_systemwide
+    - units_min
+    allowed_group_constraints:
+    - demand_share_min
+    - demand_share_max
+    - demand_share_equals
+    - demand_share_per_timestep_min
+    - demand_share_per_timestep_max
+    - demand_share_per_timestep_equals
+    - demand_share_per_timestep_decision
+    - carrier_prod_share_min
+    - carrier_prod_share_max
+    - carrier_prod_share_equals
+    - carrier_prod_share_per_timestep_min
+    - carrier_prod_share_per_timestep_max
+    - carrier_prod_share_per_timestep_equals
+    - cost_max
+    - cost_min
+    - cost_equals
+    - cost_var_max
+    - cost_var_min
+    - cost_var_equals
+    - cost_investment_min
+    - cost_investment_max
+    - cost_investment_equals
+    - energy_cap_share_min
+    - energy_cap_share_max
+    - energy_cap_share_equals
+    - energy_cap_min
+    - energy_cap_max
+    - energy_cap_equals
+    - carrier_prod_min
+    - carrier_prod_max
+    - carrier_prod_equals
+    - carrier_con_min
+    - carrier_con_max
+    - carrier_con_equals
+    allowed_costs:
+    - depreciation_rate
+    - energy_cap
+    - export
+    - interest_rate
+    - om_annual
+    - om_annual_investment_fraction
+    - om_con
+    - om_prod
+    - purchase
+  electrolyzer:
+    inheritance:
+    - conversion_plus
+    essentials:
+      parent: conversion_plus  # From parent tech_group `conversion_plus`
+      carrier_in: electricity
+      carrier_in_2: water
+      carrier_out: hydrogen
+      name: PEM electrolyzer
+      primary_carrier_in: electricity
+      primary_carrier_out: hydrogen
+      color: '#3c7632'  # From Calliope default palette
+    constraints: {}
+    required_constraints: []
+    allowed_constraints:
+    - carrier_ratios
+    - energy_cap_equals
+    - energy_cap_equals_systemwide
+    - energy_cap_max
+    - energy_cap_max_systemwide
+    - energy_cap_min
+    - energy_cap_min_use
+    - energy_cap_per_unit
+    - energy_cap_scale
+    - energy_con
+    - energy_eff
+    - energy_prod
+    - energy_ramping
+    - export_cap
+    - export_carrier
+    - lifetime
+    - units_equals
+    - units_equals_systemwide
+    - units_max
+    - units_max_systemwide
+    - units_min
+    allowed_group_constraints:
+    - demand_share_min
+    - demand_share_max
+    - demand_share_equals
+    - demand_share_per_timestep_min
+    - demand_share_per_timestep_max
+    - demand_share_per_timestep_equals
+    - demand_share_per_timestep_decision
+    - carrier_prod_share_min
+    - carrier_prod_share_max
+    - carrier_prod_share_equals
+    - carrier_prod_share_per_timestep_min
+    - carrier_prod_share_per_timestep_max
+    - carrier_prod_share_per_timestep_equals
+    - cost_max
+    - cost_min
+    - cost_equals
+    - cost_var_max
+    - cost_var_min
+    - cost_var_equals
+    - cost_investment_min
+    - cost_investment_max
+    - cost_investment_equals
+    - energy_cap_share_min
+    - energy_cap_share_max
+    - energy_cap_share_equals
+    - energy_cap_min
+    - energy_cap_max
+    - energy_cap_equals
+    - carrier_prod_min
+    - carrier_prod_max
+    - carrier_prod_equals
+    - carrier_con_min
+    - carrier_con_max
+    - carrier_con_equals
+    allowed_costs:
+    - depreciation_rate
+    - energy_cap
+    - export
+    - interest_rate
+    - om_annual
+    - om_annual_investment_fraction
+    - om_con
+    - om_prod
+    - purchase
+  h2_store:
+    inheritance:
+    - storage
+    essentials:
+      parent: storage  # From parent tech_group `storage`
+      carrier: hydrogen
+      name: H2 storage
+      carrier_in: hydrogen  # Set from essentials.carrier
+      carrier_out: hydrogen
+      color: '#7e7a36'  # From Calliope default palette
+    constraints: {}
+    required_constraints: []
+    allowed_constraints:
+    - charge_rate
+    - energy_cap_per_storage_cap_min
+    - energy_cap_per_storage_cap_max
+    - energy_cap_per_storage_cap_equals
+    - energy_cap_equals
+    - energy_cap_equals_systemwide
+    - energy_cap_max
+    - energy_cap_max_systemwide
+    - energy_cap_min
+    - energy_cap_min_use
+    - energy_cap_per_unit
+    - energy_cap_scale
+    - energy_con
+    - energy_eff
+    - energy_prod
+    - energy_ramping
+    - export_cap
+    - export_carrier
+    - force_asynchronous_prod_con
+    - lifetime
+    - storage_cap_equals
+    - storage_cap_max
+    - storage_cap_min
+    - storage_cap_per_unit
+    - storage_initial
+    - storage_loss
+    - storage_time_max
+    - storage_discharge_depth
+    - units_equals
+    - units_equals_systemwide
+    - units_max
+    - units_max_systemwide
+    - units_min
+    allowed_group_constraints:
+    - cost_max
+    - cost_min
+    - cost_equals
+    - cost_var_max
+    - cost_var_min
+    - cost_var_equals
+    - cost_investment_min
+    - cost_investment_max
+    - cost_investment_equals
+    - energy_cap_share_min
+    - energy_cap_share_max
+    - energy_cap_share_equals
+    - energy_cap_min
+    - energy_cap_max
+    - energy_cap_equals
+    - storage_cap_min
+    - storage_cap_max
+    - storage_cap_equals
+    allowed_costs:
+    - depreciation_rate
+    - energy_cap
+    - export
+    - interest_rate
+    - om_annual
+    - om_annual_investment_fraction
+    - om_prod
+    - purchase
+    - storage_cap
+  pv:
+    inheritance:
+    - supply
+    essentials:
+      parent: supply  # From parent tech_group `supply`
+      carrier_out: electricity
+      name: PV
+      carrier_in: resource
+      color: '#bc7967'  # From Calliope default palette
+    constraints: {}
+    required_constraints: []
+    allowed_constraints:
+    - energy_cap_equals
+    - energy_cap_equals_systemwide
+    - energy_cap_max
+    - energy_cap_max_systemwide
+    - energy_cap_min
+    - energy_cap_min_use
+    - energy_cap_per_unit
+    - energy_cap_scale
+    - energy_eff
+    - energy_prod
+    - energy_ramping
+    - export_cap
+    - export_carrier
+    - force_resource
+    - lifetime
+    - resource
+    - resource_area_equals
+    - resource_area_max
+    - resource_area_min
+    - resource_area_per_energy_cap
+    - resource_min_use
+    - resource_scale
+    - resource_unit
+    - units_equals
+    - units_equals_systemwide
+    - units_max
+    - units_max_systemwide
+    - units_min
+    allowed_group_constraints:
+    - demand_share_min
+    - demand_share_max
+    - demand_share_equals
+    - demand_share_per_timestep_min
+    - demand_share_per_timestep_max
+    - demand_share_per_timestep_equals
+    - demand_share_per_timestep_decision
+    - carrier_prod_share_min
+    - carrier_prod_share_max
+    - carrier_prod_share_equals
+    - carrier_prod_share_per_timestep_min
+    - carrier_prod_share_per_timestep_max
+    - carrier_prod_share_per_timestep_equals
+    - cost_max
+    - cost_min
+    - cost_equals
+    - cost_var_max
+    - cost_var_min
+    - cost_var_equals
+    - cost_investment_min
+    - cost_investment_max
+    - cost_investment_equals
+    - energy_cap_share_min
+    - energy_cap_share_max
+    - energy_cap_share_equals
+    - energy_cap_min
+    - energy_cap_max
+    - energy_cap_equals
+    - resource_area_min
+    - resource_area_max
+    - resource_area_equals
+    - carrier_prod_min
+    - carrier_prod_max
+    - carrier_prod_equals
+    allowed_costs:
+    - depreciation_rate
+    - energy_cap
+    - export
+    - interest_rate
+    - om_annual
+    - om_annual_investment_fraction
+    - om_con
+    - om_prod
+    - purchase
+    - resource_area
+  seawater_supply:
+    inheritance:
+    - supply
+    essentials:
+      parent: supply  # From parent tech_group `supply`
+      carrier_out: seawater
+      carrier_in: resource
+      color: '#d486af'  # From Calliope default palette
+    constraints: {}
+    required_constraints: []
+    allowed_constraints:
+    - energy_cap_equals
+    - energy_cap_equals_systemwide
+    - energy_cap_max
+    - energy_cap_max_systemwide
+    - energy_cap_min
+    - energy_cap_min_use
+    - energy_cap_per_unit
+    - energy_cap_scale
+    - energy_eff
+    - energy_prod
+    - energy_ramping
+    - export_cap
+    - export_carrier
+    - force_resource
+    - lifetime
+    - resource
+    - resource_area_equals
+    - resource_area_max
+    - resource_area_min
+    - resource_area_per_energy_cap
+    - resource_min_use
+    - resource_scale
+    - resource_unit
+    - units_equals
+    - units_equals_systemwide
+    - units_max
+    - units_max_systemwide
+    - units_min
+    allowed_group_constraints:
+    - demand_share_min
+    - demand_share_max
+    - demand_share_equals
+    - demand_share_per_timestep_min
+    - demand_share_per_timestep_max
+    - demand_share_per_timestep_equals
+    - demand_share_per_timestep_decision
+    - carrier_prod_share_min
+    - carrier_prod_share_max
+    - carrier_prod_share_equals
+    - carrier_prod_share_per_timestep_min
+    - carrier_prod_share_per_timestep_max
+    - carrier_prod_share_per_timestep_equals
+    - cost_max
+    - cost_min
+    - cost_equals
+    - cost_var_max
+    - cost_var_min
+    - cost_var_equals
+    - cost_investment_min
+    - cost_investment_max
+    - cost_investment_equals
+    - energy_cap_share_min
+    - energy_cap_share_max
+    - energy_cap_share_equals
+    - energy_cap_min
+    - energy_cap_max
+    - energy_cap_equals
+    - resource_area_min
+    - resource_area_max
+    - resource_area_equals
+    - carrier_prod_min
+    - carrier_prod_max
+    - carrier_prod_equals
+    allowed_costs:
+    - depreciation_rate
+    - energy_cap
+    - export
+    - interest_rate
+    - om_annual
+    - om_annual_investment_fraction
+    - om_con
+    - om_prod
+    - purchase
+    - resource_area
+  water_supply:
+    inheritance:
+    - supply
+    essentials:
+      parent: supply  # From parent tech_group `supply`
+      carrier_out: water
+      carrier_in: resource
+      color: '#caa9e7'  # From Calliope default palette
+    constraints: {}
+    required_constraints: []
+    allowed_constraints:
+    - energy_cap_equals
+    - energy_cap_equals_systemwide
+    - energy_cap_max
+    - energy_cap_max_systemwide
+    - energy_cap_min
+    - energy_cap_min_use
+    - energy_cap_per_unit
+    - energy_cap_scale
+    - energy_eff
+    - energy_prod
+    - energy_ramping
+    - export_cap
+    - export_carrier
+    - force_resource
+    - lifetime
+    - resource
+    - resource_area_equals
+    - resource_area_max
+    - resource_area_min
+    - resource_area_per_energy_cap
+    - resource_min_use
+    - resource_scale
+    - resource_unit
+    - units_equals
+    - units_equals_systemwide
+    - units_max
+    - units_max_systemwide
+    - units_min
+    allowed_group_constraints:
+    - demand_share_min
+    - demand_share_max
+    - demand_share_equals
+    - demand_share_per_timestep_min
+    - demand_share_per_timestep_max
+    - demand_share_per_timestep_equals
+    - demand_share_per_timestep_decision
+    - carrier_prod_share_min
+    - carrier_prod_share_max
+    - carrier_prod_share_equals
+    - carrier_prod_share_per_timestep_min
+    - carrier_prod_share_per_timestep_max
+    - carrier_prod_share_per_timestep_equals
+    - cost_max
+    - cost_min
+    - cost_equals
+    - cost_var_max
+    - cost_var_min
+    - cost_var_equals
+    - cost_investment_min
+    - cost_investment_max
+    - cost_investment_equals
+    - energy_cap_share_min
+    - energy_cap_share_max
+    - energy_cap_share_equals
+    - energy_cap_min
+    - energy_cap_max
+    - energy_cap_equals
+    - resource_area_min
+    - resource_area_max
+    - resource_area_equals
+    - carrier_prod_min
+    - carrier_prod_max
+    - carrier_prod_equals
+    allowed_costs:
+    - depreciation_rate
+    - energy_cap
+    - export
+    - interest_rate
+    - om_annual
+    - om_annual_investment_fraction
+    - om_con
+    - om_prod
+    - purchase
+    - resource_area
+tech_groups:
+  conversion: []
+  conversion_plus:
+  - desalination
+  - electrolyzer
+  demand:
+  - demand_h2
+  storage:
+  - h2_store
+  supply:
+  - pv
+  - seawater_supply
+  - water_supply
+  supply_plus: []
+  transmission:
+  - ac_line
+locations:
+  PV_SITE:
+    coordinates:
+      lat: -32.788658
+      lon: -71.026503
+    techs:
+      pv:
+        constraints:
+          energy_cap_max: 2000
+          energy_prod: true
+          lifetime: 25
+          resource: file=pv_cf/pv_cf_access_cm2_ssp245.csv:cf
+          resource_unit: energy_per_cap
+        costs:
+          co2:
+            om_prod: 0.0
+          monetary:
+            depreciation_rate: 0.0858105172206656
+            energy_cap: 700000
+            om_annual: 15000
+    links:
+      VALPO:
+        techs:
+          ac_line:
+            constraints:
+              energy_cap_max: 5000
+              energy_con: true
+              energy_eff: 0.95
+              energy_prod: true
+              lifetime: 40
+            costs:
+              monetary:
+                depreciation_rate: 0.07500913887361031
+                energy_cap: 120000
+                om_annual: 3000
+  VALPO:
+    coordinates:
+      lat: -33.0
+      lon: -71.6
+    techs:
+      demand_h2:
+        constraints:
+          energy_con: true
+          force_resource: true
+          resource: file=demand_h2_monthly_MWh.csv:VALPO
+          resource_unit: energy
+      desalination:
+        constraints:
+          carrier_ratios:
+            carrier_in:
+              seawater: 1.1
+            carrier_out:
+              water: 1.0
+          energy_cap_max: 50
+          energy_con: true
+          energy_eff: 0.2857
+          energy_prod: true
+          lifetime: 25
+        costs:
+          monetary:
+            depreciation_rate: 0.0858105172206656
+            energy_cap: 800000
+            om_prod: 0.5
+      electrolyzer:
+        constraints:
+          carrier_ratios:
+            carrier_in:
+              electricity: 1.0
+            carrier_in_2:
+              water: 0.27
+            carrier_out:
+              hydrogen: 1.0
+          energy_cap_max: 2000
+          energy_con: true
+          energy_eff: 0.68
+          energy_prod: true
+          lifetime: 15
+        costs:
+          co2:
+            om_con: 0.0
+          monetary:
+            depreciation_rate: 0.1097946247010065
+            energy_cap: 900000
+            om_annual: 25000
+      h2_store:
+        constraints:
+          energy_cap_per_storage_cap_max: 1.0
+          energy_con: true
+          energy_prod: true
+          lifetime: 20
+          storage_cap_max: 500000
+          storage_loss: 0.0005
+        costs:
+          monetary:
+            depreciation_rate: 0.09439292574325567
+            storage_cap: 200000
+      seawater_supply:
+        constraints:
+          energy_prod: true
+          resource: inf
+          resource_unit: energy
+        costs:
+          monetary:
+            om_prod: 0.0
+    links:
+      PV_SITE:
+        techs:
+          ac_line:
+            constraints:
+              energy_cap_max: 5000
+              energy_con: true
+              energy_eff: 0.95
+              energy_prod: true
+              lifetime: 40
+            costs:
+              monetary:
+                depreciation_rate: 0.07500913887361031
+                energy_cap: 120000
+                om_annual: 3000
+run:
+  backend: pyomo
+  bigM: 1000000000.0
+  cyclic_storage: true
+  ensure_feasibility: true
+  mode: plan
+  objective_options:
+    cost_class:
+      monetary: 1
+      co2: 0
+    sense: minimize
+  objective: minmax_cost_optimization
+  operation:
+    window: null
+    horizon: null
+    use_cap_results: false
+  spores_options:
+    spores_number: 3
+    slack: 0.1
+    score_cost_class: spores_score
+    objective_cost_class:
+      spores_score: 1
+      monetary: 0
+    slack_cost_group: null
+    save_per_spore: false
+    save_per_spore_path: null
+    skip_cost_op: false
+  relax_constraint:
+    demand_share_per_timestep_decision_main_constraint: 0
+  save_logs: null
+  solver_io: null
+  solver_options:
+    presolve: on
+    threads: 20
+  solver: cbc
+  zero_threshold: 1e-10
+  save_results:
+  - all
+model:
+  calliope_version: null
+  group_share: {}
+  name: H2_valley_scenarios
+  random_seed: null
+  reserve_margin: {}
+  subset_time:
+  - '2023-01-01'
+  - '2043-01-31'
+  time: {}
+  timeseries_data_path: data
+  timeseries_data: null
+  timeseries_dateformat: '%Y-%m-%d %H:%M:%S'
+  file_allowed:
+  - clustering_func
+  - energy_con
+  - energy_eff
+  - energy_prod
+  - energy_ramping
+  - export
+  - force_resource
+  - om_con
+  - om_prod
+  - parasitic_eff
+  - resource
+  - resource_eff
+  - storage_loss
+  - carrier_ratios
+group_constraints: {}
+sets:
+  resources:
+  - seawater
+  - hydrogen
+  - water
+  - electricity
+  - resource
+  carriers:
+  - hydrogen
+  - electricity
+  - seawater
+  - water
+  carrier_tiers:
+  - in
+  - in_2
+  - out
+  costs:
+  - monetary
+  - co2
+  locs:
+  - VALPO
+  - PV_SITE
+  techs_non_transmission:
+  - demand_h2
+  - seawater_supply
+  - electrolyzer
+  - h2_store
+  - desalination
+  - water_supply
+  - pv
+  techs_demand:
+  - demand_h2
+  techs_supply:
+  - seawater_supply
+  - water_supply
+  - pv
+  techs_supply_plus: []
+  techs_conversion: []
+  techs_conversion_plus:
+  - desalination
+  - electrolyzer
+  techs_storage:
+  - h2_store
+  techs_transmission_names:
+  - ac_line
+  techs_transmission:
+  - ac_line:PV_SITE
+  - ac_line:VALPO
+  techs:
+  - ac_line
+  - demand_h2
+  - seawater_supply
+  - electrolyzer
+  - h2_store
+  - desalination
+  - water_supply
+  - pv
+  coordinates:
+  - lon
+  - lat
+  timesteps:
+  - '2023-01-01'
+  - '2023-02-01'
+  - '2023-03-01'
+  - '2023-04-01'
+  - '2023-05-01'
+  - '2023-06-01'
+  - '2023-07-01'
+  - '2023-08-01'
+  - '2023-09-01'
+  - '2023-10-01'
+  - '2023-11-01'
+  - '2023-12-01'
+  - '2024-01-01'
+  - '2024-02-01'
+  - '2024-03-01'
+  - '2024-04-01'
+  - '2024-05-01'
+  - '2024-06-01'
+  - '2024-07-01'
+  - '2024-08-01'
+  - '2024-09-01'
+  - '2024-10-01'
+  - '2024-11-01'
+  - '2024-12-01'
+  - '2025-01-01'
+  - '2025-02-01'
+  - '2025-03-01'
+  - '2025-04-01'
+  - '2025-05-01'
+  - '2025-06-01'
+  - '2025-07-01'
+  - '2025-08-01'
+  - '2025-09-01'
+  - '2025-10-01'
+  - '2025-11-01'
+  - '2025-12-01'
+  - '2026-01-01'
+  - '2026-02-01'
+  - '2026-03-01'
+  - '2026-04-01'
+  - '2026-05-01'
+  - '2026-06-01'
+  - '2026-07-01'
+  - '2026-08-01'
+  - '2026-09-01'
+  - '2026-10-01'
+  - '2026-11-01'
+  - '2026-12-01'
+  - '2027-01-01'
+  - '2027-02-01'
+  - '2027-03-01'
+  - '2027-04-01'
+  - '2027-05-01'
+  - '2027-06-01'
+  - '2027-07-01'
+  - '2027-08-01'
+  - '2027-09-01'
+  - '2027-10-01'
+  - '2027-11-01'
+  - '2027-12-01'
+  - '2028-01-01'
+  - '2028-02-01'
+  - '2028-03-01'
+  - '2028-04-01'
+  - '2028-05-01'
+  - '2028-06-01'
+  - '2028-07-01'
+  - '2028-08-01'
+  - '2028-09-01'
+  - '2028-10-01'
+  - '2028-11-01'
+  - '2028-12-01'
+  - '2029-01-01'
+  - '2029-02-01'
+  - '2029-03-01'
+  - '2029-04-01'
+  - '2029-05-01'
+  - '2029-06-01'
+  - '2029-07-01'
+  - '2029-08-01'
+  - '2029-09-01'
+  - '2029-10-01'
+  - '2029-11-01'
+  - '2029-12-01'
+  - '2030-01-01'
+  - '2030-02-01'
+  - '2030-03-01'
+  - '2030-04-01'
+  - '2030-05-01'
+  - '2030-06-01'
+  - '2030-07-01'
+  - '2030-08-01'
+  - '2030-09-01'
+  - '2030-10-01'
+  - '2030-11-01'
+  - '2030-12-01'
+  - '2031-01-01'
+  - '2031-02-01'
+  - '2031-03-01'
+  - '2031-04-01'
+  - '2031-05-01'
+  - '2031-06-01'
+  - '2031-07-01'
+  - '2031-08-01'
+  - '2031-09-01'
+  - '2031-10-01'
+  - '2031-11-01'
+  - '2031-12-01'
+  - '2032-01-01'
+  - '2032-02-01'
+  - '2032-03-01'
+  - '2032-04-01'
+  - '2032-05-01'
+  - '2032-06-01'
+  - '2032-07-01'
+  - '2032-08-01'
+  - '2032-09-01'
+  - '2032-10-01'
+  - '2032-11-01'
+  - '2032-12-01'
+  - '2033-01-01'
+  - '2033-02-01'
+  - '2033-03-01'
+  - '2033-04-01'
+  - '2033-05-01'
+  - '2033-06-01'
+  - '2033-07-01'
+  - '2033-08-01'
+  - '2033-09-01'
+  - '2033-10-01'
+  - '2033-11-01'
+  - '2033-12-01'
+  - '2034-01-01'
+  - '2034-02-01'
+  - '2034-03-01'
+  - '2034-04-01'
+  - '2034-05-01'
+  - '2034-06-01'
+  - '2034-07-01'
+  - '2034-08-01'
+  - '2034-09-01'
+  - '2034-10-01'
+  - '2034-11-01'
+  - '2034-12-01'
+  - '2035-01-01'
+  - '2035-02-01'
+  - '2035-03-01'
+  - '2035-04-01'
+  - '2035-05-01'
+  - '2035-06-01'
+  - '2035-07-01'
+  - '2035-08-01'
+  - '2035-09-01'
+  - '2035-10-01'
+  - '2035-11-01'
+  - '2035-12-01'
+  - '2036-01-01'
+  - '2036-02-01'
+  - '2036-03-01'
+  - '2036-04-01'
+  - '2036-05-01'
+  - '2036-06-01'
+  - '2036-07-01'
+  - '2036-08-01'
+  - '2036-09-01'
+  - '2036-10-01'
+  - '2036-11-01'
+  - '2036-12-01'
+  - '2037-01-01'
+  - '2037-02-01'
+  - '2037-03-01'
+  - '2037-04-01'
+  - '2037-05-01'
+  - '2037-06-01'
+  - '2037-07-01'
+  - '2037-08-01'
+  - '2037-09-01'
+  - '2037-10-01'
+  - '2037-11-01'
+  - '2037-12-01'
+  - '2038-01-01'
+  - '2038-02-01'
+  - '2038-03-01'
+  - '2038-04-01'
+  - '2038-05-01'
+  - '2038-06-01'
+  - '2038-07-01'
+  - '2038-08-01'
+  - '2038-09-01'
+  - '2038-10-01'
+  - '2038-11-01'
+  - '2038-12-01'
+  - '2039-01-01'
+  - '2039-02-01'
+  - '2039-03-01'
+  - '2039-04-01'
+  - '2039-05-01'
+  - '2039-06-01'
+  - '2039-07-01'
+  - '2039-08-01'
+  - '2039-09-01'
+  - '2039-10-01'
+  - '2039-11-01'
+  - '2039-12-01'
+  - '2040-01-01'
+  - '2040-02-01'
+  - '2040-03-01'
+  - '2040-04-01'
+  - '2040-05-01'
+  - '2040-06-01'
+  - '2040-07-01'
+  - '2040-08-01'
+  - '2040-09-01'
+  - '2040-10-01'
+  - '2040-11-01'
+  - '2040-12-01'
+  - '2041-01-01'
+  - '2041-02-01'
+  - '2041-03-01'
+  - '2041-04-01'
+  - '2041-05-01'
+  - '2041-06-01'
+  - '2041-07-01'
+  - '2041-08-01'
+  - '2041-09-01'
+  - '2041-10-01'
+  - '2041-11-01'
+  - '2041-12-01'
+  - '2042-01-01'
+  - '2042-02-01'
+  - '2042-03-01'
+  - '2042-04-01'
+  - '2042-05-01'
+  - '2042-06-01'
+  - '2042-07-01'
+  - '2042-08-01'
+  - '2042-09-01'
+  - '2042-10-01'
+  - '2042-11-01'
+  - '2042-12-01'
+  - '2043-01-01'
+  techlists: []
+  loc_carriers:
+  - VALPO::electricity
+  - VALPO::hydrogen
+  - VALPO::water
+  - VALPO::seawater
+  - PV_SITE::electricity
+  loc_tech_carriers_con:
+  - VALPO::ac_line:PV_SITE::electricity
+  - VALPO::electrolyzer::electricity
+  - VALPO::electrolyzer::water
+  - VALPO::h2_store::hydrogen
+  - PV_SITE::ac_line:VALPO::electricity
+  - VALPO::demand_h2::hydrogen
+  - VALPO::desalination::seawater
+  - VALPO::desalination::electricity
+  loc_tech_carriers_conversion_all:
+  - VALPO::electrolyzer::hydrogen
+  - VALPO::desalination::water
+  loc_tech_carriers_conversion_plus:
+  - VALPO::desalination::water
+  - VALPO::electrolyzer::electricity
+  - VALPO::electrolyzer::water
+  - VALPO::electrolyzer::hydrogen
+  - VALPO::desalination::seawater
+  - VALPO::desalination::electricity
+  loc_tech_carriers_demand:
+  - VALPO::demand_h2::hydrogen
+  loc_tech_carriers_export: []
+  loc_tech_carriers_prod:
+  - VALPO::ac_line:PV_SITE::electricity
+  - VALPO::desalination::water
+  - VALPO::h2_store::hydrogen
+  - VALPO::electrolyzer::hydrogen
+  - PV_SITE::pv::electricity
+  - PV_SITE::ac_line:VALPO::electricity
+  - VALPO::seawater_supply::seawater
+  loc_tech_carriers_supply_all:
+  - PV_SITE::pv::electricity
+  - VALPO::seawater_supply::seawater
+  loc_tech_carriers_supply_conversion_all:
+  - VALPO::electrolyzer::hydrogen
+  - PV_SITE::pv::electricity
+  - VALPO::seawater_supply::seawater
+  - VALPO::desalination::water
+  loc_techs:
+  - VALPO::electrolyzer
+  - PV_SITE::ac_line:VALPO
+  - PV_SITE::pv
+  - VALPO::desalination
+  - VALPO::demand_h2
+  - VALPO::ac_line:PV_SITE
+  - VALPO::h2_store
+  - VALPO::seawater_supply
+  loc_techs_area: []
+  loc_techs_asynchronous_prod_con: []
+  loc_techs_conversion: []
+  loc_techs_conversion_all:
+  - VALPO::electrolyzer
+  - VALPO::desalination
+  loc_techs_conversion_plus:
+  - VALPO::electrolyzer
+  - VALPO::desalination
+  loc_techs_cost:
+  - VALPO::electrolyzer
+  - PV_SITE::ac_line:VALPO
+  - PV_SITE::pv
+  - VALPO::desalination
+  - VALPO::ac_line:PV_SITE
+  - VALPO::h2_store
+  - VALPO::seawater_supply
+  loc_techs_costs_export: []
+  loc_techs_demand:
+  - VALPO::demand_h2
+  loc_techs_export: []
+  loc_techs_finite_resource:
+  - PV_SITE::pv
+  - VALPO::demand_h2
+  loc_techs_finite_resource_demand:
+  - VALPO::demand_h2
+  loc_techs_finite_resource_supply:
+  - PV_SITE::pv
+  loc_techs_finite_resource_supply_plus: []
+  loc_techs_in_2:
+  - VALPO::electrolyzer
+  loc_techs_in_3: []
+  loc_techs_investment_cost:
+  - VALPO::electrolyzer
+  - PV_SITE::ac_line:VALPO
+  - PV_SITE::pv
+  - VALPO::desalination
+  - VALPO::ac_line:PV_SITE
+  - VALPO::h2_store
+  loc_techs_milp: []
+  loc_techs_non_conversion:
+  - PV_SITE::ac_line:VALPO
+  - PV_SITE::pv
+  - VALPO::ac_line:PV_SITE
+  - VALPO::demand_h2
+  - VALPO::h2_store
+  - VALPO::seawater_supply
+  loc_techs_non_transmission:
+  - VALPO::electrolyzer
+  - VALPO::h2_store
+  - PV_SITE::pv
+  - VALPO::desalination
+  - VALPO::demand_h2
+  - VALPO::seawater_supply
+  loc_techs_om_cost:
+  - VALPO::electrolyzer
+  - PV_SITE::pv
+  - VALPO::desalination
+  - VALPO::seawater_supply
+  loc_techs_om_cost_conversion: []
+  loc_techs_om_cost_conversion_plus:
+  - VALPO::electrolyzer
+  - VALPO::desalination
+  loc_techs_om_cost_supply:
+  - PV_SITE::pv
+  - VALPO::seawater_supply
+  loc_techs_om_cost_supply_plus: []
+  loc_techs_out_2: []
+  loc_techs_out_3: []
+  loc_techs_purchase: []
+  loc_techs_ramping: []
+  loc_techs_storage:
+  - VALPO::h2_store
+  loc_techs_store:
+  - VALPO::h2_store
+  loc_techs_supply:
+  - PV_SITE::pv
+  - VALPO::seawater_supply
+  loc_techs_supply_all:
+  - PV_SITE::pv
+  - VALPO::seawater_supply
+  loc_techs_supply_conversion_all:
+  - VALPO::electrolyzer
+  - PV_SITE::pv
+  - VALPO::desalination
+  - VALPO::seawater_supply
+  loc_techs_supply_plus: []
+  loc_techs_transmission:
+  - PV_SITE::ac_line:VALPO
+  - VALPO::ac_line:PV_SITE
+constraint_sets:
+  loc_carriers_system_balance_constraint:
+  - VALPO::electricity
+  - VALPO::hydrogen
+  - VALPO::water
+  - VALPO::seawater
+  - PV_SITE::electricity
+  loc_techs_balance_supply_constraint:
+  - PV_SITE::pv
+  loc_techs_balance_demand_constraint:
+  - VALPO::demand_h2
+  loc_techs_resource_availability_supply_plus_constraint: []
+  loc_techs_balance_transmission_constraint:
+  - PV_SITE::ac_line:VALPO
+  - VALPO::ac_line:PV_SITE
+  loc_techs_balance_supply_plus_constraint: []
+  loc_techs_balance_storage_constraint:
+  - VALPO::h2_store
+  loc_techs_storage_initial_constraint: []
+  loc_techs_storage_discharge_depth: []
+  carriers_reserve_margin_constraint: []
+  loc_techs_cost_constraint:
+  - VALPO::electrolyzer
+  - PV_SITE::ac_line:VALPO
+  - PV_SITE::pv
+  - VALPO::desalination
+  - VALPO::ac_line:PV_SITE
+  - VALPO::h2_store
+  - VALPO::seawater_supply
+  loc_techs_cost_investment_constraint:
+  - VALPO::electrolyzer
+  - PV_SITE::ac_line:VALPO
+  - PV_SITE::pv
+  - VALPO::desalination
+  - VALPO::ac_line:PV_SITE
+  - VALPO::h2_store
+  loc_techs_cost_var_constraint:
+  - PV_SITE::pv
+  - VALPO::seawater_supply
+  loc_carriers_update_system_balance_constraint: []
+  loc_tech_carriers_export_balance_constraint: []
+  loc_techs_update_costs_var_constraint: []
+  loc_tech_carriers_export_max_constraint: []
+  loc_techs_storage_capacity_constraint:
+  - VALPO::h2_store
+  loc_techs_energy_capacity_storage_constraint_old: []
+  loc_techs_energy_capacity_storage_equals_constraint: []
+  loc_techs_energy_capacity_storage_min_constraint: []
+  loc_techs_energy_capacity_storage_max_constraint:
+  - VALPO::h2_store
+  loc_techs_resource_capacity_constraint: []
+  loc_techs_resource_capacity_equals_energy_capacity_constraint: []
+  loc_techs_resource_area_constraint: []
+  loc_techs_resource_area_per_energy_capacity_constraint: []
+  locs_resource_area_capacity_per_loc_constraint: []
+  loc_techs_energy_capacity_constraint:
+  - VALPO::electrolyzer
+  - PV_SITE::ac_line:VALPO
+  - PV_SITE::pv
+  - VALPO::desalination
+  - VALPO::demand_h2
+  - VALPO::ac_line:PV_SITE
+  - VALPO::h2_store
+  - VALPO::seawater_supply
+  techs_energy_capacity_systemwide_constraint: []
+  loc_tech_carriers_carrier_production_max_constraint:
+  - VALPO::ac_line:PV_SITE::electricity
+  - VALPO::h2_store::hydrogen
+  - PV_SITE::pv::electricity
+  - PV_SITE::ac_line:VALPO::electricity
+  - VALPO::seawater_supply::seawater
+  loc_tech_carriers_carrier_production_min_constraint: []
+  loc_tech_carriers_carrier_consumption_max_constraint:
+  - VALPO::ac_line:PV_SITE::electricity
+  - VALPO::h2_store::hydrogen
+  - PV_SITE::ac_line:VALPO::electricity
+  - VALPO::demand_h2::hydrogen
+  loc_techs_resource_max_constraint: []
+  loc_tech_carriers_ramping_constraint: []
+  loc_techs_storage_max_constraint:
+  - VALPO::h2_store
+  loc_techs_unit_commitment_milp_constraint: []
+  loc_techs_unit_capacity_milp_constraint: []
+  loc_tech_carriers_carrier_production_max_milp_constraint: []
+  loc_techs_carrier_production_max_conversion_plus_milp_constraint: []
+  loc_tech_carriers_carrier_production_min_milp_constraint: []
+  loc_techs_carrier_production_min_conversion_plus_milp_constraint: []
+  loc_tech_carriers_carrier_consumption_max_milp_constraint: []
+  loc_techs_energy_capacity_units_milp_constraint: []
+  loc_techs_storage_capacity_units_milp_constraint: []
+  loc_techs_energy_capacity_max_purchase_milp_constraint: []
+  loc_techs_energy_capacity_min_purchase_milp_constraint: []
+  loc_techs_storage_capacity_max_purchase_milp_constraint: []
+  loc_techs_storage_capacity_min_purchase_milp_constraint: []
+  loc_techs_update_costs_investment_units_milp_constraint: []
+  loc_techs_update_costs_investment_purchase_milp_constraint: []
+  techs_unit_capacity_systemwide_milp_constraint: []
+  loc_techs_asynchronous_prod_con_milp_constraint: []
+  loc_techs_balance_conversion_constraint: []
+  loc_techs_cost_var_conversion_constraint: []
+  loc_techs_balance_conversion_plus_primary_constraint:
+  - VALPO::electrolyzer
+  - VALPO::desalination
+  loc_techs_carrier_production_max_conversion_plus_constraint:
+  - VALPO::electrolyzer
+  - VALPO::desalination
+  loc_techs_carrier_production_min_conversion_plus_constraint: []
+  loc_techs_cost_var_conversion_plus_constraint:
+  - VALPO::electrolyzer
+  - VALPO::desalination
+  loc_techs_balance_conversion_plus_in_2_constraint:
+  - VALPO::electrolyzer
+  loc_techs_balance_conversion_plus_in_3_constraint: []
+  loc_techs_balance_conversion_plus_out_2_constraint: []
+  loc_techs_balance_conversion_plus_out_3_constraint: []
+  loc_techs_symmetric_transmission_constraint:
+  - PV_SITE::ac_line:VALPO
+  - VALPO::ac_line:PV_SITE
+  techlists_group_share_energy_cap_min_constraint: []
+  techlists_carrier_group_share_carrier_prod_min_constraint: []
+  techlists_group_share_energy_cap_max_constraint: []
+  techlists_carrier_group_share_carrier_prod_max_constraint: []
+  techlists_group_share_energy_cap_equals_constraint: []
+  techlists_carrier_group_share_carrier_prod_equals_constraint: []
+  group_constraints: []

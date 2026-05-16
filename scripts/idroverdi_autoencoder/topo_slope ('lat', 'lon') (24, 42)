@@ -1,0 +1,11 @@
+topo_slope ('lat', 'lon') (24, 42)
+topo_elevation ('lat', 'lon') (24, 42)
+landuse_suitable_pv ('lat', 'lon') (24, 42)
+landuse_restricted ('lat', 'lon') (24, 42)
+landuse_agriculture ('lat', 'lon') (24, 42)
+landuse_urban_infra ('lat', 'lon') (24, 42)
+landuse_water_glacier ('lat', 'lon') (24, 42)
+conflict_density ('lat', 'lon') (24, 42)
+conflict_proximity ('lat', 'lon') (24, 42)
+
+necesito revisar estos con un mapa para poder ver si corresponde 

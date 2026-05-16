@@ -1,0 +1,4 @@
+techs:
+  pv:
+    constraints:
+      resource: file=pv_cf/pv_cf_access_cm2_ssp585.csv:cf   # CF corregido
